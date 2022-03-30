@@ -1,5 +1,6 @@
-import { ThemeProvider } from "styled-components";
-import NavBar from "./components/NavBar";
+//import { ThemeProvider } from "styled-components";
+//import NavBar from "./components/NavBar";
+import Home from "./components/Home";
 import Header from "./components/Header";
 import Contact from "./components/Contact";
 import EstateInfo from "./components/EstateInfo";
@@ -8,7 +9,10 @@ import RdfAdvantages from "./components/RdfAdvantages";
 import MainFooter from "./components/MainFooter";
 import GlobalStyles from "./components/styles/Global";
 import Adventages from "./components/Advantages";
-
+import React from "react";
+import Navbar from "./components/NavBar/NavBar";
+import { BrowserRouter as Router, Link, Redirect, Route, Switch } from 'react-router-dom';
+import './App.css';
 
 const theme = {
   colors:{
@@ -22,19 +26,17 @@ const theme = {
 
 function App() {
   return (
-    <ThemeProvider theme = {theme}>
-    <>
-      <GlobalStyles/>
-      <NavBar/>
-      <Header/>
-      <WelcomePage/>
-      <RdfAdvantages/>
-      <Adventages/>
-      <EstateInfo/>
-      <Contact/>
-      <MainFooter/>
-    </>
-    </ThemeProvider>
+        <>
+      <Router>
+        <Navbar/>
+        <Switch>
+          <Route path='/' exact />
+        </Switch>
+        <Home/>
+        
+        
+      </Router>
+    </> 
   );
 }
 

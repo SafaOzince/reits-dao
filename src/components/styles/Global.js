@@ -4,11 +4,12 @@ const GlobalStyles = createGlobalStyle`
 
 *{
     box-sizing:border-box;
+    font-family: NDAstroneer-Regular;
 }
 
 body {
     background: ${({ theme }) => theme.colors.body};
-    font-family: NDAstroneer;
+    font-family: NDAstroneer-Regular;
     margin: 0;
 }
 
