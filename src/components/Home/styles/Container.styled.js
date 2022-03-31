@@ -9,7 +9,8 @@ margin: 0 auto;
 export const CustomContainer = styled.div`
   display: flex;
   flex-direction: row;
-  width: 1708px;
+  width: 100%;
+  max-width: 1708px;
   height: 832px;
   margin: 78px 0 49px;
   padding: 27px 27px 27px 103px;

@@ -1,0 +1,151 @@
+.defi {
+    background: #02264a; 
+    height: 206px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 26px;
+    position: relative;
+    top: 0;
+    z-index: 999;
+}
+
+.defi-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 1920px;
+    width: 100%;
+}
+
+.d-cont {
+    display: flex;
+    justify-content: space-around;
+    width: 360px;
+  
+}
+
+.d-cont1 {
+    width: 360px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.d-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.d-text {
+    font-family: NDAstroneer;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    margin: 0.5rem;
+    color: #fff;
+}
+
+.d-textvalue {
+    font-family: NDAstroneer;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    margin: 0.5rem;
+    color: #fd6920;
+
+}
+
+.defi-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff; 
+    max-width: 1920px;
+    min-height: 783px;
+}
+
+.d-header {
+    font-size: 53px;
+    font-family:  "NDAstroneer";
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: center;
+    margin: 0 432px 61px;
+    color:#02264a;
+}
+
+.d-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.d-card {
+    width: 360px;
+    height: 477px;
+    margin: 0 41px 0 0;
+    
+    border-radius: 17px;
+    box-shadow: 0 3px 6px 0 #c6d5e3;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+
+.d-title {
+    
+    font-family: NDAstroneer;
+    font-size: 40px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.98;
+    letter-spacing: normal;
+    text-align: center;
+    color:#02264a;
+}
+
+.d-logo {
+    width: 160px;
+    height: 160px;
+    object-fit: contain;
+}
+
+.d-comm {
+    width: 318px;
+    height: 91px;
+}
+
+.d-par {
+    
+    font-family: NDAstroneer;
+    font-size: 26px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.15;
+    letter-spacing: normal;
+    text-align: center;
+    color:#02264a;
+}

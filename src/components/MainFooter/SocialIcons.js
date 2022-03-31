@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { StyledSocialIcons } from "./styles/SocialIcons.styled"
+import { StyledSocialIcons } from "./SocialIcons.styled"
 
 export default function SocialIcons() {
     return(

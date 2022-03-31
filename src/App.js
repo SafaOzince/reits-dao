@@ -1,18 +1,22 @@
 //import { ThemeProvider } from "styled-components";
 //import NavBar from "./components/NavBar";
-import Home from "./components/Home";
-import Header from "./components/Header";
-import Contact from "./components/Contact";
-import EstateInfo from "./components/EstateInfo";
-import WelcomePage from "./components/WelcomePage";
-import RdfAdvantages from "./components/RdfAdvantages";
-import MainFooter from "./components/MainFooter";
-import GlobalStyles from "./components/styles/Global";
-import Adventages from "./components/Advantages";
+import Home from "./components/Home/Home";
+import Header from "./components/Home/Header";
+import Contact from "./components/Home/Contact";
+import EstateInfo from "./components/Home/EstateInfo";
+import WelcomePage from "./components/Home/WelcomePage";
+import RdfAdvantages from "./components/Home/RdfAdvantages";
+import MainFooter from "./components/MainFooter/MainFooter";
+import GlobalStyles from "./components/Home/styles/Global";
+import Adventages from "./components/Home/Advantages";
 import React from "react";
 import Navbar from "./components/NavBar/NavBar";
 import { BrowserRouter as Router, Link, Redirect, Route, Switch } from 'react-router-dom';
 import './App.css';
+import Partners from "./components/Partners/Partners";
+import Defi from "./components/Defi/Defi";
+import Notice from "./components/Notice/Notice";
+import EstateTrendroyal from "./components/EstateTrendroyal/EstateTrendroyal";
 
 const theme = {
   colors:{
@@ -30,12 +34,18 @@ function App() {
       <Router>
         <Navbar/>
         <Switch>
-          <Route path='/' exact />
+          <Route path='/' exact component={Home}/>
+          <Route path='/estateinfo' exact component={EstateTrendroyal}/>
+          <Route path='/defi' exact component={Defi}/>
+          <Route path='/partners' exact component={Partners}/>
+          <Route path='/notice' exact component={Notice}/>
         </Switch>
-        <Home/>
         
-        
+        {/* <Home/> */}
+        {/* <Partners/> */}
+        <MainFooter/>
       </Router>
+      {/* <MainFooter/> */}
     </> 
   );
 }

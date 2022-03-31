@@ -32,7 +32,10 @@ export const StyledButton = styled.button`
   color: #fff;
 
   @media(max-width: ${({ theme }) => theme.mobile}) {
-    margin-top: 10px;
+    margin-top: 20px;
+    width: 90%;
+    text-align: center;
+    
   }
 
 `
@@ -40,7 +43,7 @@ export const ContactButton = styled.button`
   width: 89%;
   height: 77px;
   margin: 30px;
-  border-style : solid;
+  border-style: solid;
   border-color: rgba(200, 200, 200, 0.25);
   border-width: 2px;
   border-radius: 12px;
@@ -51,7 +54,7 @@ export const ContactButton = styled.button`
   object-fit: contain;
   
   @media(max-width: ${({ theme }) => theme.mobile}) {
-    width: 80%;
+    width: 100%;
     max-width: 500px;
     flex-direction: column;
     text-align: center;

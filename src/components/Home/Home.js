@@ -5,7 +5,7 @@ import Contact from "./Contact";
 import EstateInfo from "./EstateInfo";
 import WelcomePage from "./WelcomePage";
 import RdfAdvantages from "./RdfAdvantages";
-import MainFooter from "./MainFooter";
+import MainFooter from "../MainFooter/MainFooter";
 import GlobalStyles from "./styles/Global";
 import Adventages from "./Advantages";
 
@@ -32,7 +32,7 @@ function Home() {
       <Adventages/>
       <EstateInfo/>
       <Contact/>
-      <MainFooter/>
+      
     </>
     </ThemeProvider>
   );

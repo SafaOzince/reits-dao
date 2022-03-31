@@ -5,7 +5,7 @@
     justify-content: space-around;
     align-items: center;
     font-size: 26px;
-    position: sticky;
+    position: relative;
     top: 0;
     z-index: 999;
   }
@@ -15,7 +15,7 @@
     justify-content: center;
     align-items: center;
     height: 80px;
-    max-width: 1500px;
+    max-width: 1920px;
   }
   
   .navbar-logo {

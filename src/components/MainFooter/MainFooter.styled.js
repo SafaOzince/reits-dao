@@ -1,8 +1,8 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 
 export const StyledMainFooter = styled.footer`
-  background-color: ${({ theme }) => theme.colors.footer};
+  background-color: #011a34;  
   color: #fff;
   padding: 100px 0 60px;
 

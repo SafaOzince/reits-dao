@@ -1,8 +1,8 @@
 import styled from "styled-components"
 import SocialIcons from "./SocialIcons"
-import { Container } from "./styles/Container.styled"
-import { Flex } from "./styles/Flex.styled"
-import { StyledMainFooter } from "./styles/MainFooter.styled"
+import { Container } from "../Home/styles/Container.styled"
+import { Flex } from "../Home/styles/Flex.styled"
+import { StyledMainFooter } from "./MainFooter.styled"
 
 const Sc = styled.div`
 display: flex;

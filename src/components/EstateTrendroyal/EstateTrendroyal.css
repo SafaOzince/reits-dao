@@ -1,0 +1,30 @@
+.estate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    width: 100%;
+
+}
+
+.estmidcont {
+    width: 100%;
+    max-width: 1920px;
+    height: 1174px;
+    margin: 59px 0 31px;
+    padding: 72px 106px 72px 235px;
+    background-color: #02264a;
+}
+
+.estmidconttitle {
+    font-family: NDAstroneer;
+    font-size: 56px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
