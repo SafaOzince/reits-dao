@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { StyledWelcome } from "./styles/Welcome.styled";
 import { CardContainer } from "./styles/Container.styled";
+import "./WelcomePage.css"
 
 
 const CardImage = styled.img`
@@ -21,28 +22,23 @@ const CardImage = styled.img`
 export default function WelcomePage() {
     return (
       <StyledWelcome>
-        <div>
-            <div>
-                <h2>Reits Dao Finance</h2>
-                <CardContainer>
-                    <p> ReitsDAO is a service operated by Blokfield.Inc and is 
+        <div className="welcomerow">
+          <div className="welcomel">
+            <div className="welcomeh">Reits Dao Finance</div>
+            <div className="welcomesubh"> ReitsDAO is a service operated by Blokfield.Inc and is 
                         a decentralized real estate investment product service 
                         with real estate tokens linked to real assets on the BSC 
                         blockchain network.
-                    </p>
-                </CardContainer>
             </div>
-        <div>
-          <CardImage src="./images/Images/Group-345.png" alt=""/>
-        </div>
-      </div>
-      <div>
-        <div>
-          <CardImage src="./images/Images/contemporary-home-minimalist.png" alt=""/>
-        </div>
-        <div>
-            <CardContainer>
-                <p> ReitsDAO’s token economy model is designed to be very 
+            <div>
+              <img src="./images/Images/Group-345.png" alt=""/>
+            </div>  
+          </div>
+          <div className="welcomel">
+            <div>
+              <img src="./images/Images/contemporary-home-minimalist.png" alt=""/>
+            </div>
+            <div className="welcomesubh1"> ReitsDAO’s token economy model is designed to be very 
                     simple. ReitsDAO issues “RDF” tokens that are collateralized with 
                     real estate values, and “RDF” tokens reflect the value and 
                     revenue of all real estate owned by ReitsDAO. 
@@ -50,10 +46,10 @@ export default function WelcomePage() {
                     sum of all real estate values and profits owned by ReitsDAO. 
                     ReitsDAO does not issue new tokens reflecting each real 
                     estate value and is managed only as “RDF”.
-                </p>
-            </CardContainer>
+            </div>
+          </div>
         </div>
-      </div>
+       
     </StyledWelcome>
     )
   }

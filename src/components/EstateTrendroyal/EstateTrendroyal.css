@@ -8,16 +8,14 @@
 
 }
 
-.estmidcont {
-    width: 100%;
-    max-width: 1920px;
-    height: 1174px;
-    margin: 59px 0 31px;
-    padding: 72px 106px 72px 235px;
-    background-color: #02264a;
+.estdiv {
+    width: 1579px;
+    height: 0;
+    margin: 31px 106px 0 235px;
+    border: solid 1px #d0deea;
 }
 
-.estmidconttitle {
+.estbottomtitle {
     font-family: NDAstroneer;
     font-size: 56px;
     font-weight: normal;
@@ -26,5 +24,10 @@
     line-height: 1.18;
     letter-spacing: normal;
     text-align: center;
-    color: #fff;
+    color: #02264a;
+    margin-top: 1em;
+}
+
+.estimg {
+    margin-bottom: 8em;
 }

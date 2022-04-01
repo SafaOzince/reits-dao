@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import contactbg from "./contactbg.svg";
 export const StyledContact = styled.div`
   display: flex;
   align-items: center;
@@ -7,7 +7,7 @@ export const StyledContact = styled.div`
   background-color: #02264a;
   color: #fff;
   width: 100%;
-  
+  background-image:url(${contactbg}); 
   padding: 80px;
  
 

@@ -1,0 +1,55 @@
+.estbottomrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.estbottomcard {
+    width: 514px;
+    height: 564px;
+    margin: 61px 44px 160.6px 26px;
+    padding: 0 0 43px;
+    border-radius: 17px;
+    box-shadow: 0 3px 6px 0 #c6d5e3;
+    background-color: #fff;
+}
+
+.estbottomcardtop {
+    width: 514px;
+    height: 256px;
+    margin: 0 0 41px;
+    padding: 81px 206.6px 81.1px 206px;
+    border-radius: 17px 17px 0 0;
+    background-color: #fafafa;
+}
+
+.estbottomcardtitle {
+    font-family: NDAstroneer;
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: left;
+    color: #02264a;
+    padding: 0.5rem;
+    margin-left: 1.75rem;
+    margin-right: 1.45rem;
+}
+.estbottomcardcomm {
+    font-family: NDAstroneer;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #02264a;
+    padding: 0.5rem;
+    margin-left: 1.75rem;
+    margin-right: 1.45rem;
+}

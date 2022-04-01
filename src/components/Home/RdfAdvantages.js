@@ -54,14 +54,14 @@ const SubtitleFlex = styled.div`
 export default function RdfAdvantages() {
     return (
       <StyledRdfAdvantages>
-        <LeftContainer>
+        {/* <LeftContainer>
           <div>
           <img src='./images/Images/UpperLeftCorner.png' alt=""/>
           </div>
           <div>
           <img src='./images/Images/LowerLeftCorner.png' alt=""/>
           </div>
-        </LeftContainer>
+        </LeftContainer> */}
         <MiddleContainer>
           <MiddleTopContainer>
             <SubtitleFlex>
@@ -77,7 +77,7 @@ export default function RdfAdvantages() {
             </SubtitleFlex>
           </MiddleTopContainer>
             <div>
-            <img src='./images/Images/Rdfadv.png' alt=""/>
+            <img src='./images/Images/003.png' alt=""/>
             </div>
           <MiddleBottomContainer>
             <SubContainer>
@@ -118,12 +118,12 @@ export default function RdfAdvantages() {
           </MiddleBottomContainer>
           
         </MiddleContainer>
-        <RightContainer>
+        {/* <RightContainer>
           <div>
             <img src='./images/Images/UpperLeftCorner.png' alt=""/>
           </div>
         </RightContainer>  
-        
+         */}
       </StyledRdfAdvantages> 
       
     

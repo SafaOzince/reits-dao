@@ -23,10 +23,10 @@ export const NavbarButton = styled.button`
 `
 
 export const StyledButton = styled.button`
-  width: 555px;
+  width: 100%;    
+  max-width: 555px;
   height: 117px;
-  margin: 0.8px 0 0.4px 21.5px;
-  padding: 38px 61.3px 28.6px 29.4px;
+  margin-left: 6em; 
   border-radius: 15px;
   background-color: #fd6c21;
   color: #fff;
@@ -40,7 +40,8 @@ export const StyledButton = styled.button`
 
 `
 export const ContactButton = styled.button`
-  width: 89%;
+  width: 100%;
+  max-width: 720px;
   height: 77px;
   margin: 30px;
   border-style: solid;

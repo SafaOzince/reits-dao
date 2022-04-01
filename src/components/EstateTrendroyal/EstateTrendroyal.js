@@ -1,19 +1,20 @@
-import "./EstateTrendroyal.css"
+import "./EstateTrendroyal.css";
+import EstateReasonCard from "./components/EstateReasonCard";
+import Topsection from "./components/Topsection";
+import EstateBottomCard from "./components/EstateBottomCard";
 
 function EstateTrendroyal() {
     return(
         <>
             <div className="estate">
-               <div>
-
-               </div>
-               <div className="estmidcont">
-                    <div className="estmidconttitle">Reason for choosing investment</div>
-               </div>
-               <div>
-
-               </div>
-               <img src="./images/estateinfo.svg" alt=""/>
+                <Topsection/>
+                <EstateReasonCard/>
+                <div className="estdiv"></div>
+                <div className="estbottomtitle">Reliable and Safe Real Estate Asset Management</div>
+                <EstateBottomCard/>
+                <div className="estimg">
+                    <img src="./images/estateinfo.svg" alt=""/>
+                </div>
             </div>
         </>
     )

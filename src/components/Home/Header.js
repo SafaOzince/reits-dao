@@ -1,29 +1,30 @@
 import { StyledHeader, Image } from "./styles/Header.styled"
-import { Container } from "./styles/Container.styled"
+import { HeaderContainer } from "./styles/Container.styled"
 import { Flex } from "./styles/Flex.styled"
 import { Button, StyledButton } from "./styles/Button.styled"
+import "./Header.css"
 
 
 export default function Header() {
   return(
     <StyledHeader>
-      <Container>
-        <Flex>
-          <div>
-            <h1>
-            Find Your Best <br/>
-            Smart Real<br/>
+      <HeaderContainer>
+        <div className="header">
+          <div className="headerl">
+            <div className="headertit">
+            Find Your Best 
+            Smart Real
             Estate
-            </h1>
+            </div>
 
             <StyledButton >
-              <h1 >Get Your One</h1>
+              <div className="hbuttontit" >Get Your One</div>
             </StyledButton>
           </div>
 
           <Image src='./images/Images/wallpaperbetter.png' alt='' />
-        </Flex>
-      </Container>
+        </div>
+      </HeaderContainer>
     </StyledHeader>
   )
 }

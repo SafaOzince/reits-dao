@@ -1,0 +1,157 @@
+.estmidcont {
+    width: 100%;
+    max-width: 1920px;
+    height: 1174px;
+    margin: 59px 0 31px;
+    padding: 72px 106px 72px 235px;
+    background-color: #02264a;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+}
+
+.estmidconttitle {
+    font-family: NDAstroneer;
+    font-size: 56px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 1em;
+}
+
+.estmidcontinside {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.estmidcontright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 6em;
+    
+}
+.est-rightrow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 569.9px;
+}
+.estmidcontrightsub {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    
+}
+
+.est-text1 {
+    font-family: NDAstroneer;
+    font-size: 32px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.72;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+
+.est-text2{
+    font-family: NDAstroneer;
+    font-size: 26px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.28;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+
+.est-text3{
+    font-family: NDAstroneer;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+
+.est-divider1 {
+    width: 569.9px;
+    height: 0;
+    margin: 22px 70.1px 0 0;
+    border: solid 1px #2e4d6c;
+  
+}
+
+.est-divider2 {
+    width: 1579px;
+    height: 0;
+    margin: 60px 0 0 0px;
+    opacity: 0.3;
+    border: solid 1px #d0deea;
+    background-color: #fff;
+}
+
+.estcardbox {
+    width: 190px;
+    height: 237px;
+    margin: 1rem;
+    color: #fff;
+    opacity: 0.15;
+    border-radius: 16px;
+    border: solid 2px #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.estfinish2 {
+    -webkit-text-stroke: 1px #fff;
+font-family: NDAstroneer;
+font-size: 32px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 3.72;
+letter-spacing: normal;
+text-align: left;
+color: #fff;
+
+}
+.estmidcontinside2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.est-boxtit {
+    font-family: NDAstroneer;
+  font-size: 26px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.15;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+}

@@ -26,7 +26,8 @@ export const Logo = styled.img`
 `
 
 export const Image= styled.img`
-  width: 715px;
+  width: 100%;
+  max-width: 715px;
   height: 604px;
   margin: 81px 81px 81px 146.1px;
   padding: 19.5px 17.4px 19.4px 5.3px;

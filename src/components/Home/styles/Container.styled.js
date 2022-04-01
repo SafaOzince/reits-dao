@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import headerbg from './headerbg.svg'
 
 export const Container = styled.div`
 width: 100%;
@@ -6,6 +7,14 @@ max-width: 1920px;
 padding: 0 20px;
 margin: 0 auto;
 `
+export const HeaderContainer = styled.div`
+width: 100%;
+max-width: 1920px;
+padding: 0 20px;
+margin: 0 auto;
+background-image:url(${headerbg});
+`
+
 export const CustomContainer = styled.div`
   display: flex;
   flex-direction: row;

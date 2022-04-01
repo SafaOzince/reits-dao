@@ -26,7 +26,8 @@ const Contactcontainer = styled.div`
 `
 
 const Xlcontainer = styled.div`
-width: 89%;
+width: 100%;
+max-width: 720px;
 height: 209.8px;
 margin: 30.9px 30.1px 30.7px 30px;
 padding: 3px 16px;
@@ -46,7 +47,8 @@ color: #fff;
 }
 `
 const Smallcontainer = styled.div`
-  width: 43%;
+  width: 100%;
+  max-width: 345px;
   height: 78.5px;
   margin: 20px;
   border-style: solid;
@@ -69,10 +71,11 @@ const Smallcontainer = styled.div`
 const Largecontainer = styled.div`
   display: flex;
   flex-direction: row;
-  width: 750px;
+  width: 100%;
+  max-width: 720px;
   align-items: center;
   justify-content: center;
-  padding: 5px;
+  
   @media(max-width: ${({ theme }) => theme.mobile}) {
     
     flex-direction: column;
@@ -85,12 +88,12 @@ const Largecontainer = styled.div`
 export default function Contact() {
     return (
       <StyledContact>
-        <LeftContainer>
+        {/* <LeftContainer>
           <div>
           <img src='./images/Images/ContactLeft.png' alt=""/>
           </div>
          
-        </LeftContainer>
+        </LeftContainer> */}
         <MiddleContainer>
             <div>
               <h1 >Contact</h1>
@@ -108,11 +111,11 @@ export default function Contact() {
             <Xlcontainer><h2>Your message</h2></Xlcontainer > 
             <ContactButton>Send</ContactButton>
         </MiddleContainer>
-        <RightContainer>
+        {/* <RightContainer>
           <div>
             <img src='./images/Images/Contactright.png' alt=""/>
           </div>
-        </RightContainer>  
+        </RightContainer>   */}
       </StyledContact> 
       
     
