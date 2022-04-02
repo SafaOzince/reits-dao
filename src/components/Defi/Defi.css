@@ -43,7 +43,7 @@
 }
 
 .d-text {
-    font-family: NDAstroneer;
+    font-family: "NDAstroneer";
     font-size: 20px;
     font-weight: normal;
     font-stretch: normal;
@@ -56,7 +56,7 @@
 }
 
 .d-textvalue {
-    font-family: NDAstroneer;
+    font-family: "NDAstroneer";
     font-size: 20px;
     font-weight: normal;
     font-stretch: normal;
@@ -115,7 +115,7 @@
 
 .d-title {
     
-    font-family: NDAstroneer;
+    font-family: "NDAstroneer";
     font-size: 40px;
     font-weight: normal;
     font-stretch: normal;
@@ -139,7 +139,7 @@
 
 .d-par {
     
-    font-family: NDAstroneer;
+    font-family: "NDAstroneer";
     font-size: 26px;
     font-weight: normal;
     font-stretch: normal;

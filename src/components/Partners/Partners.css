@@ -10,7 +10,7 @@
 }
 
 .p-header {
-    font-family: NDAstroneer;
+    font-family: "NDAstroneer";
     font-size: 53px;
     font-weight: normal;
     font-stretch: normal;
@@ -22,7 +22,7 @@
 }
 
 .p-title {
-    font-family: NDAstroneer;
+    font-family: "NDAstroneer";
     font-size: 42px;
     font-weight: normal;
     font-stretch: normal;
@@ -34,7 +34,7 @@
 }
 
 .p-comment {
-    font-family: NDAstroneer;
+    font-family: "NDAstroneer";
     font-size: 27px;
     font-weight: normal;
     font-stretch: normal;
@@ -68,7 +68,7 @@
 }
 
 .p-boxtitle {
-    font-family: NDAstroneer;
+    font-family: "NDAstroneer";
     font-size: 27px;
     font-weight: normal;
     font-stretch: normal;

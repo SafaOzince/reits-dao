@@ -1,7 +1,8 @@
 import styled from "styled-components";
-import { StyledContact } from "./styles/Contact.styled";
+import { StyledContact, Textcbutton } from "./styles/Contact.styled";
 import { LeftContainer, MiddleContainer, RightContainer } from "./styles/Container.styled"
 import { ContactButton } from "./styles/Button.styled";
+import "./Contact.css"
 
 const Contactcontainer = styled.div`
   width: 100%;
@@ -94,9 +95,10 @@ export default function Contact() {
           </div>
          
         </LeftContainer> */}
+       
         <MiddleContainer>
             <div>
-              <h1 >Contact</h1>
+              <h1 >Contact</h1> 
             </div>
             <Largecontainer>
               <Smallcontainer><h2>Your name</h2></Smallcontainer> 
@@ -109,7 +111,7 @@ export default function Contact() {
             <Contactcontainer><h2>Phone</h2></Contactcontainer> 
             </Largecontainer>
             <Xlcontainer><h2>Your message</h2></Xlcontainer > 
-            <ContactButton>Send</ContactButton>
+            <ContactButton><Textcbutton >Send</Textcbutton></ContactButton>
         </MiddleContainer>
         {/* <RightContainer>
           <div>

@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import headerbg from './headerbg.svg'
 
+
 export const Container = styled.div`
 width: 100%;
 max-width: 1920px;
@@ -60,6 +61,7 @@ export const RightContainer = styled.div`
 
 `
 export const MiddleContainer = styled.div`
+  font-family: "NDAstroneer";
   display: flex;
   flex-direction: column;
   align-items: center;

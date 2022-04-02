@@ -13,6 +13,7 @@ import React from "react";
 import Navbar from "./components/NavBar/NavBar";
 import { BrowserRouter as Router, Link, Redirect, Route, Switch } from 'react-router-dom';
 import './App.css';
+import "./fonts/ndastroneer.ttf";
 import Partners from "./components/Partners/Partners";
 import Defi from "./components/Defi/Defi";
 import Notice from "./components/Notice/Notice";

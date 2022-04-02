@@ -37,7 +37,7 @@
     align-items: center;
 }
 .n-headertitle {
-    font-family: NDAstroneer;
+    font-family: "NDAstroneer";
     font-size: 53px;
     font-weight: normal;
     font-stretch: normal;
@@ -49,7 +49,7 @@
 }
 
 .n-title {
-    font-family: NDAstroneer;
+    font-family: "NDAstroneer";
     font-size: 38px;
     font-weight: normal;
     font-stretch: normal;
@@ -61,7 +61,7 @@
 }
 
 .n-subtit {
-    font-family: NDAstroneer;
+    font-family: "NDAstroneer";
     font-size: 27px;
     font-weight: normal;
     font-stretch: normal;
@@ -73,7 +73,7 @@
 }
 
 .n-bottomtitle {
-    font-family: NDAstroneer;
+    font-family: "NDAstroneer";
     font-size: 53px;
     font-weight: normal;
     font-stretch: normal;
@@ -117,7 +117,7 @@
 }
 
 .n-faq {
-    font-family: NDAstroneer;
+    font-family: "NDAstroneer";
     font-size: 53px;
     font-weight: normal;
     font-stretch: normal;
@@ -149,7 +149,7 @@
 }
 
 .n-faqtitle {
-    font-family: NDAstroneer;
+    font-family: "NDAstroneer";
     font-size: 24px;
     font-weight: normal;
     font-stretch: normal;

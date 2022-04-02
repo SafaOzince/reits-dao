@@ -1,5 +1,5 @@
 .welcomeh{
-    font-family: NDAstroneer;
+    font-family: "NDAstroneer";
     font-size: 78px;
     font-weight: normal;
     font-stretch: normal;
@@ -14,7 +14,7 @@
 }
 
 .welcomesubh {
-    font-family: NDAstroneer;
+    font-family: "NDAstroneer";
     font-size: 27px;
     font-weight: normal;
     font-stretch: normal;
@@ -46,7 +46,7 @@
 }
 
 .welcomesubh1{
-    font-family: NDAstroneer;
+    font-family: "NDAstroneer";
   font-size: 22px;
   font-weight: normal;
   font-stretch: normal;

@@ -16,7 +16,7 @@
 .estaspan {
     width: 100%;
     margin-right: 5em;
-    font-family: NDAstroneer;
+    font-family: "NDAstroneer";
     font-size: 36px;
     font-weight: normal;
     font-stretch: normal;
@@ -46,7 +46,7 @@
 }
 
 .estaloccarddis {
-    font-family: NDAstroneer;
+    font-family: "NDAstroneer";
     font-size: 36px;
     font-weight: normal;
     font-stretch: normal;
@@ -59,7 +59,7 @@
 }
 
 .estaloccardbottom {
-    font-family: NDAstroneer;
+    font-family: "NDAstroneer";
     font-size: 28px;
     font-weight: normal;
     font-stretch: normal;
@@ -108,7 +108,7 @@
 
 }
 .estamaintitle {
-    font-family: NDAstroneer;
+    font-family: "NDAstroneer";
     font-size: 85px;
     font-weight: normal;
     font-stretch: normal;
@@ -121,7 +121,7 @@
 }
 
 .estamaincomm {
-    font-family: NDAstroneer;
+    font-family: "NDAstroneer";
     font-size: 24px;
     font-weight: normal;
     font-stretch: normal;
@@ -133,7 +133,7 @@
 }
 
 .estabartoprstyle1 {
-    font-family: NDAstroneer;
+    font-family: "NDAstroneer";
   font-size: 35px;
   font-weight: normal;
   font-stretch: normal;
@@ -145,7 +145,7 @@
 }
 
 .estabartoprstyle2 {
-    font-family: NDAstroneer;
+    font-family: "NDAstroneer";
   font-size: 80px;
   font-weight: normal;
   font-stretch: normal;
@@ -159,7 +159,7 @@
 }
 
 .estabartoprstyle3 {
-    font-family: NDAstroneer;
+    font-family: "NDAstroneer";
   font-size: 36px;
   font-weight: normal;
   font-stretch: normal;
@@ -171,7 +171,7 @@
 }
 
 .estabartopheader {
-    font-family: NDAstroneer;
+    font-family: "NDAstroneer";
   font-size: 24px;
   font-weight: normal;
   font-stretch: normal;

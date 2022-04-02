@@ -15,7 +15,7 @@
 }
 
 .headertit {
-    font-family: NDAstroneer;
+    font-family: "NDAstroneer";
   font-size: 75px;
   font-weight: normal;
   font-stretch: normal;
@@ -30,7 +30,7 @@
 }
 
 .hbuttontit {
-    font-family: Avenir;
+  font-family: "NDAstroneer";
   font-size: 31px;
   font-weight: 900;
   font-stretch: normal;

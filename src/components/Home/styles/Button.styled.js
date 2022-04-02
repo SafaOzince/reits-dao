@@ -23,6 +23,7 @@ export const NavbarButton = styled.button`
 `
 
 export const StyledButton = styled.button`
+  font-family: "NDAstroneer";
   width: 100%;    
   max-width: 555px;
   height: 117px;
@@ -40,6 +41,7 @@ export const StyledButton = styled.button`
 
 `
 export const ContactButton = styled.button`
+  font-family: "NDAstroneer";
   width: 100%;
   max-width: 720px;
   height: 77px;
