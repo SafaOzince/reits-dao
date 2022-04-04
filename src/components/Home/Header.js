@@ -3,28 +3,31 @@ import { HeaderContainer } from "./styles/Container.styled"
 import { Flex } from "./styles/Flex.styled"
 import { Button, StyledButton } from "./styles/Button.styled"
 import "./Header.css"
-
+import headerbg from './styles/headerbg.svg'
 
 export default function Header() {
   return(
-    <StyledHeader>
+    
       <HeaderContainer>
-        <div className="header">
+        
           <div className="headerl">
-            <div className="headertit">
+          <div className="headertit">
             Find Your Best 
             Smart Real
             Estate
             </div>
+            <div className="hbutton">Get Your One</div>
+            
 
-            <StyledButton >
+            {/* <StyledButton >
               <div className="hbuttontit" >Get Your One</div>
-            </StyledButton>
+            </StyledButton> */}
           </div>
-
-          <Image src='./images/Images/wallpaperbetter.png' alt='' />
-        </div>
+          <div className="headerr">
+            <img src='./images/Images/wallpaperbetter.png' alt='' />
+          </div>
+        
       </HeaderContainer>
-    </StyledHeader>
+   
   )
 }

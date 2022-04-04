@@ -9,10 +9,14 @@ padding: 0 20px;
 margin: 0 auto;
 `
 export const HeaderContainer = styled.div`
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
 width: 100%;
-max-width: 1920px;
-padding: 0 20px;
-margin: 0 auto;
+color: #fff;
+margin-right: auto;
+margin-left: auto;
 background-image:url(${headerbg});
 `
 

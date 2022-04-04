@@ -12,6 +12,10 @@ body {
     margin: 0;
 }
 
+section {
+    padding: 60px 0;
+}
+
 `
 //font-family: NDAstroneer-Regular;
 

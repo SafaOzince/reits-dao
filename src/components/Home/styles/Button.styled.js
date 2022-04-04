@@ -27,7 +27,7 @@ export const StyledButton = styled.button`
   width: 100%;    
   max-width: 555px;
   height: 117px;
-  margin-left: 6em; 
+  
   border-radius: 15px;
   background-color: #fd6c21;
   color: #fff;
