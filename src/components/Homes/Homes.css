@@ -545,3 +545,322 @@ p {
 .sectionSix .bgblue {
     background-color: #eaf3ff;
 }
+
+
+/* -------------------------Section 8------------------------------ */
+
+
+.sectionEight {
+    background-color: #001a34;
+
+}.sectionEight .padding {
+    padding: 0 100px;
+}
+
+.sectionEight .title {
+    text-align: center;
+    color: #ffffff;
+    font-size: 65px;
+    font-family: "NDAstroneer";
+}
+
+.sectionEight .estate-body {
+    background-color: #02264a;
+    border-radius: 26px;
+    margin-bottom: 49px;
+}
+
+@media (width: 1400px){
+.col-xxl-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+}}
+
+@media screen and (max-width: 1800px){
+.sectionEight .estate-body .side-left {
+    padding: 40px 80px;
+}}
+
+.sectionEight .estate-body .side-left {
+    padding: 80px 80px;
+}
+
+.overflow-auto {
+    overflow: auto!important;
+}
+
+.sectionEight .estate-body h2 {
+    color: #ffffff;
+    font-size: 50px;
+    font-family: "NDAstroneer";
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.sectionEight .estate-body p {
+    color: #ffffff;
+    font-size: 24px;
+    font-family: "NDAstroneer";
+    margin-bottom: 40px;
+}
+
+@media (width: 768px){
+.d-md-block {
+    display: block!important;
+}}
+
+.d-none {
+    display: none!important;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tbody, td, tfoot, th, thead, tr {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+
+.sectionEight .estate-body h4 {
+    color: #8193a5;
+    font-family: "NDAstroneer";
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.pb-4 {
+    padding-bottom: 1.5rem!important;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.sectionEight .estate-body td {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "NDAstroneer";
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.sectionEight .estate-body h6 {
+    color: #8193a5;
+    font-family: "NDAstroneer";
+    font-size: 20px;
+    padding-right: 2rem;
+}
+
+h6 {
+    display: block;
+    font-size: 0.67em;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.pt-5 {
+    padding-top: 3rem!important;
+}
+
+.sectionEight .estate-body .side-right {
+    padding: 30px 40px 30px 0px;
+}
+
+.m-auto {
+    margin: auto!important;
+}
+
+@media (min-width: 1400px){
+.col-xxl-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+}}
+
+
+/* -------------------------Section Contact------------------------------ */
+
+
+.contact {
+    padding: 100px 0;
+    background-color: #02264a;
+    background-image: url(./contact-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contact h1 {
+    color: #ffffff;
+    font-size: 65px;
+    font-family: "NDAstroneer";
+}
+
+.contact form {
+    padding: 0 100px;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.contact form .form-column {
+    margin-bottom: 30px;
+}
+
+.contact form .form-control {
+    border-radius: 12px;
+}
+
+.contact form input, .contact form textarea {
+    color: #f0f0f0;
+    border: solid 3px rgba(240, 240, 240, 0.137);
+    background: none;
+    padding: 20px 20px;
+    font-size: 22px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+input[type="text" i] {
+    padding: 1px 2px;
+}
+
+input {
+    writing-mode: horizontal-tb !important;
+    font-style: "";
+    font-variant-ligatures: "";
+    font-variant-caps: "";
+    font-variant-numeric: "";
+    font-variant-east-asian: "";
+    font-weight: "";
+    font-stretch: "";
+    font-size:"" ;
+    font-family: "NDAstroneer";
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+textarea.form-control {
+    min-height: calc(1.5em + 0.75rem + 2px);
+}
+
+.contact form button {
+    background-color: #29527b;
+    color: #ffffff;
+    font-size: 22px;
+    font-family: ndAstrooner;
+    border-radius: 12px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.p-3 {
+    padding: 1rem!important;
+}
+
+.w-100 {
+    width: 100%!important;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
