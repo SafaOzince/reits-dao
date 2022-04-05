@@ -42,9 +42,16 @@ function NavBar() {
                             </Link>
                         </li>
                         <li className="nav-item">
+                          <div className="dropdown">
                             <Link to="/estateinfo" className="nav-links" onClick={closeMobileMenu}>
-                                Estate Info 
+                             Estate Info     
                             </Link>
+                                  <div class="dropdown-content">
+                                    <a href="/estateinfo">Trend Royal 2</a>
+                                    <a href="/estateinfo">2nd Project</a>
+                                    <a href="/estateinfo">3rd Project</a>
+                                  </div>
+                          </div>
                         </li>
                         <li className="nav-item">
                             <Link to="/defi" className="nav-links" onClick={closeMobileMenu}>
