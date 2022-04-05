@@ -86,7 +86,7 @@ function Homes() {
                             <p>Market Profit</p>
                             <p>Rental Income</p>
                         </div>
-                        <img src="./images//Homes/Section-thre-photo.png" className="img-fluid" alt=""style={{maxWidth:'75%'}}/>
+                        <img src="./images//Homes/Section-thre-photo.png" className="img-fluid img-center" alt="" style={{maxWidth:'75%'}}/>
                         <div className="row content">
                             <div className="col-lg-6 pe-lg-5 sc3wdl">
                                 <p className="mb-5">
@@ -114,7 +114,7 @@ function Homes() {
             <section id="sectionFour" className="sectionFour aos-init aos-animate" data-aos="zoom-out">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-5 section-four-left">
+                        <div className="col-lg-5 section-four-left sc4wdl">
                             <h2>
                                 RDF Adventages
                             </h2>
@@ -126,16 +126,16 @@ function Homes() {
                                     <h3>Opportunity <br/> Cost</h3>
                                 </div>
                                 <div className="col-lg-8 text-center text-lg-end">
-                                    <img className="img-fluid" src="./images/Homes/Section-four-leftphoto.png" alt=""/>
+                                    <img className="img-fluid" src="./images/Homes/Section-four-leftphoto.png" alt="" style={{maxWidth:'75%'}}/>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-2 d-flex align-items-center justify-content-center mt-5 mb-5 mt-lg-0 mb-lg-0">
+                        <div className="col-lg-2 d-flex align-items-center justify-content-center mt-5 mb-5 mt-lg-0 mb-lg-0 sc4wd-center">
                             <h1 className="vs">VS</h1>
                         </div>
-                        <div className="col-lg-5 section-four-right justify-content-end">
+                        <div className="col-lg-5 section-four-right justify-content-end sc4wdl">
                             <h3>Financal <br/>Liquidty</h3>
-                            <img src="./images/Homes/section-four-rightphoto.png" alt=""/>
+                            <img src="./images/Homes/section-four-rightphoto.png" alt="" style={{maxWidth:'60%'}}/>
                             <p>In the case of general real estate investment, there is a disadvantage of insufficient liquidity. By tokenizing the value of real estate, small investment is possible and loss of opportunity cost can be minimized.
                             </p>
                         </div>
@@ -144,13 +144,13 @@ function Homes() {
             </section>
             {/* Section 4 End */}
             {/* Section 5 */}
-            <section id="sectionFive" className="sectionFive aos-init aos-animate" data-aos="fade-up">
+            <section id="sectionFive" className="sectionFive aos-init aos-animate" data-aos="fade-up" >
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-6 px-5">
-                            <img className="img-fluid" src="./images/Homes/Section-Five-Photo.png"/>
+                        <div className="col-lg-6 px-5 sc5wdl">
+                            <img className="img-fluid" src="./images/Homes/Section-Five-Photo.png" style={{maxWidth:'80%'}}/>
                         </div>
-                        <div className="col-lg-6 px-5 align-self-center mt-lg-0 mt-5">
+                        <div className="col-lg-6 px-5 align-self-center mt-lg-0 mt-5 sc5wdl">
                             <h2>RDF Adventages</h2>
                             <h1>Extra Income</h1>
                             <p>Tokens issued while investing in real estate generate continuous interest income through the DeFi service, so you can expect maximum efficiency in fund management.
@@ -164,10 +164,10 @@ function Homes() {
             <section id="sectionSix" class="sectionSix">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-4 p-5 p-lg-3 aos-init aos-animate" data-aos="zoom-in">
+                        <div class="col-lg-4 p-5 p-lg-3 sc6wdl aos-init aos-animate" data-aos="zoom-in">
                             <div class="main-card bgorange">
                                 <div class="card-head">
-                                    <img class="img-fluid" src="./images/Homes/Section-six-1.png"/>
+                                    <img class="img-fluid" src="./images/Homes/Section-six-1.png" style={{maxWidth:'40%'}}/>
                                 </div>
 
                                 <div class="card-body">
@@ -179,11 +179,11 @@ function Homes() {
                             </div>
                         </div>
 
-                        <div class="col-lg-4 p-5 p-lg-3 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="col-lg-4 p-5 p-lg-3 sc6wdl aos-init aos-animate" data-aos="zoom-in" data-aos-delay="400">
                             <div class="main-card bggreen">
 
                                 <div class="card-head">
-                                    <img class="img-fluid" src="./images/Homes/Section-six-2.png"/>
+                                    <img class="img-fluid" src="./images/Homes/Section-six-2.png" style={{maxWidth:'40%'}}/>
                                 </div>
 
                                 <div class="card-body">
@@ -194,11 +194,11 @@ function Homes() {
                             </div>
                         </div>
 
-                        <div class="col-lg-4 p-5 p-lg-3 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="600">
+                        <div class="col-lg-4 p-5 p-lg-3 sc6wdl aos-init aos-animate" data-aos="zoom-in" data-aos-delay="600">
                             <div class="main-card bgblue">
 
                                 <div class="card-head">
-                                    <img class="img-fluid" src="./images/Homes/Section-six-3.png"/>
+                                    <img class="img-fluid" src="./images/Homes/Section-six-3.png" style={{maxWidth:'40%'}}/>
                                 </div>
 
                                 <div class="card-body">
@@ -266,7 +266,7 @@ function Homes() {
                                 </div>
                             </div>
                             <div class="col-xxl-7 side-right m-auto">
-                                <img class="img-fluid" src="./images/Homes/EstateInfo-1.png" alt=""/>
+                                <img class="img-fluid" src="./images/Homes/EstateInfo-1.png" alt="" style={{maxWidth:'80%'}}/>
                             </div>
                         </div>
                     </div>
@@ -320,7 +320,7 @@ function Homes() {
                                 </div>
                             </div>
                             <div class="col-xxl-7 side-right m-auto">
-                                <img class="img-fluid" src="./images/Homes/EstateInfo-2.png" alt=""/>
+                                <img class="img-fluid" src="./images/Homes/EstateInfo-2.png" alt="" style={{maxWidth:'80%'}}/>
                             </div>
                         </div>
                     </div>
@@ -332,7 +332,7 @@ function Homes() {
                 <div class="container">
                     <h1 class="text-center mb-5">Contact</h1>
                     <form class="form">
-                        <div class="row justify-content-center">
+                        <div class="row1 justify-content-center">
                             <div class="col-lg-4 form-column">
                                 <div class="form-group">
                                     <input type="text" name="" id="" class="form-control" placeholder="Your name"/>
@@ -358,7 +358,7 @@ function Homes() {
                                     <textarea class="form-control" name="" id="" rows="6" placeholder="Your Message"></textarea>
                                 </div>
                             </div>
-                            <div class="col-lg-8"><button class="btn w-100 p-3">Send</button></div>
+                            <div class="col-lg-8"><button class="btncustom w-100 p-3">Send</button></div>
                         </div>
                     </form>
                 </div>

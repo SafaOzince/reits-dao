@@ -14,6 +14,7 @@ section {
 .sectionOne::before {
     background: linear-gradient(90deg, #02264a 0%, rgba(2, 38, 74, 0.548) 8%, rgba(2, 38, 74, 0.594275) 26%, rgba(2, 38, 74, 0.8) 50%, rgba(2, 38, 74, 0.759541) 75%, rgba(2, 38, 74, 0.499037) 100%), url(./test.svg);
     background-repeat: repeat;
+    background-size: contain; 
     content: "";
     display: block;
     position: absolute;
@@ -208,7 +209,8 @@ h1 {
 
 .sectionTwo {
     background-color: #ffffff;
-    background-image: url(./Section-two-bg.png);
+    background-image: url(./Section-two-bg.png); 
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
 }
@@ -283,6 +285,7 @@ p {
 
 .section-thre {
     background-color: #02264a;
+    background-size: cover;
     background-image: url(./Section-thre-bg.png);
     background-repeat: no-repeat;
     background-position: bottom;
@@ -330,17 +333,17 @@ p {
 }
 
 .sc3wdl{
+    margin-left: auto;
+    margin-right: auto;
     width: 45%;
-    padding-left: 5%;
+    padding-left: 4%;
 }
 
-.sc3wdr{
-    width: 55%;
-    padding-left: 5%;
-}
-
-.ml {
-    margin-left: 3em;
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
 }
 /* -------------------------Section 4------------------------------ */
 
@@ -466,6 +469,19 @@ h3 {
     line-height: 1.4;
 }
 
+.sc4wdl{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding-left: 3%;
+}
+
+.sc4wd-center{
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    
+}
 
 /* -------------------------Section 5------------------------------ */
 
@@ -518,6 +534,14 @@ h3 {
 p {
     margin-top: 0;
     margin-bottom: 1rem;
+}
+
+.sc5wdl{
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    padding-left: 4%;
+    padding-right: 3%;
 }
 
 
@@ -582,12 +606,19 @@ p {
     background-color: #eaf3ff;
 }
 
+.sc6wdl {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    
+}
 
 /* -------------------------Section 8------------------------------ */
 
 
 .sectionEight {
     background-color: #001a34;
+    background-size: contain;
 
 }.sectionEight .padding {
     padding: 0 100px;
@@ -862,7 +893,7 @@ textarea.form-control {
     background-color: #29527b;
     color: #ffffff;
     font-size: 22px;
-    font-family: ndAstrooner;
+    font-family: "NDAstroneer";
     border-radius: 12px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
@@ -881,7 +912,7 @@ textarea.form-control {
     width: 100%!important;
 }
 
-.btn {
+.btncustom {
     display: inline-block;
     font-weight: 400;
     line-height: 1.5;
@@ -898,5 +929,25 @@ textarea.form-control {
     padding: 0.375rem 0.75rem;
     font-size: 1rem;
     border-radius: 0.25rem;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+.row1 {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+.row1>* {
+    flex-shrink: 0;
+    width: 60%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
 }
