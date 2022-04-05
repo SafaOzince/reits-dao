@@ -1,7 +1,8 @@
-/* ----------------------------------------------
+/**
+* ----------------------------------------------
 * Demo styles
 * ----------------------------------------------
-*/
+**/
 .accordion {
   background: rgba(255, 255, 255, 0.45);
   backdrop-filter: blur(45px);
@@ -14,13 +15,13 @@
   width: 60%;
 }
 
-.accordionitem + .accordionitem {
+.accordion__item + .accordion__item {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border:1px solid #f0f0f0;
 
 }
 
-.accordionbutton {
+.accordion__button {
   color: black;
   border:1px solid #f0f0f0;
 
@@ -31,7 +32,7 @@
   border: none;
 }
 
-.accordionbutton:before {
+.accordion__button:before {
   display: inline-block;
   content: '';
   height: 8px;
@@ -42,8 +43,8 @@
   transform: rotate(-45deg);
 }
 
-.accordionbutton[aria-expanded='true']::before,
-.accordionbutton[aria-selected='true']::before {
+.accordion__button[aria-expanded='true']::before,
+.accordion__button[aria-selected='true']::before {
   transform: rotate(45deg);
 }
 
@@ -56,9 +57,9 @@
   animation: fadein 0.35s ease-in;
 }
 
-/* -------------------------------------------------- /
-/ ---------------- Animation part ------------------ /
-/ -------------------------------------------------- */
+/* -------------------------------------------------- */
+/* ---------------- Animation part ------------------ */
+/* -------------------------------------------------- */
 
 @keyframes fadein {
   0% {
