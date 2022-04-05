@@ -28,18 +28,22 @@ function NavBar() {
         <>
             <nav className="navbar">
                 <div className="navbar-container">
+                    
                     <Link to="/" className="navbar-logo">
                       <img src="./images/logo-1.svg" alt=""/>
                       <i class="fab fa-typo3" />
                     </Link>
+                    
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? "fas fa-times" : "fas fa-bars"} />
                     </div>
                     <ul className={click ? "nav-menu active" : "nav-menu"}>
                         <li className= "nav-item">
+                            
                             <Link to="/" className="nav-links" onClick={closeMobileMenu}>
                                 Business Overview
                             </Link>
+                            
                         </li>
                         <li className="nav-item">
                           <div className="dropdown">
@@ -54,19 +58,25 @@ function NavBar() {
                           </div>
                         </li>
                         <li className="nav-item">
+                            
                             <Link to="/defi" className="nav-links" onClick={closeMobileMenu}>
                                 Defi
                             </Link>
+                            
                         </li>
                         <li className="nav-item">
+                            
                             <Link to="/partners" className="nav-links" onClick={closeMobileMenu}>
                                 Partners
                             </Link>
+                            
                         </li>
                         <li className="nav-item">
+                            
                             <Link to="/notice" className="nav-links" onClick={closeMobileMenu}>
                                 Notice
                             </Link>
+                            
                         </li>
                         <li>
                             <Link to="/contact" className="nav-links-mobile" onClick={closeMobileMenu}>
