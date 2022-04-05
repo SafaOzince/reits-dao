@@ -222,51 +222,51 @@ function Homes() {
                                 <div class="side-left overflow-auto">
                                     <h2>Trend Royal <br/> Project
                                     </h2>
-                                    <p class="d-none d-md-block">First real estate to be introduced on-chain via ReitsDAO</p>
-
-                                    <table>
-                                    <tbody><tr>
-                                            <th>
-                                                <h4 class="pb-4">INFO</h4>
+                                    <p class="d-md-block">First real estate to be introduced on-chain via ReitsDAO</p>
+                                    <th>
+                                                <h4 class="pb-2">INFO</h4>
                                             </th>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <h6>Propery Type:</h6>
-                                            </td>
-                                            <td>Commercial</td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <h6>Lot Size:</h6>
-                                            </td>
-                                            <td>285 M2</td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <h6>Rental Yield:</h6>
-                                            </td>
-                                            <td>~0.0%</td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <h6>YEAR BUILT:</h6>
-                                            </td>
-                                            <td>2015</td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <h6>Rental Escolation:</h6>
-                                            </td>
-                                            <td>3-5% Per Annum</td>
-                                        </tr>
-                                    </tbody>
-                                    </table>
-                                    <h4 class="pt-5 d-none d-md-block">Related Notice</h4>
+                                            
+                                    
+                                        <div className="infboxl">
+                                            <div className="infbox">
+                                                
+                                                <div className="txestl">Propery Type:</div>
+                                                
+                                                <div className="txest">Commercial</div>
+                                            </div>
+                                            <div className="infbox">
+                                                
+                                                <div className="txestl">Lot Size:</div>
+                                                
+                                                <div className="txest">285 M2</div>
+                                            </div>
+                                            <div className="infbox">
+                                                
+                                                <div className="txestl">Rental Yield:</div>
+                                                
+                                                <div className="txest">~0.0%</div>
+                                            </div>
+                                            <div className="infbox">
+                                                
+                                                <div className="txestl">YEAR BUILT:</div>
+                                                
+                                                <div className="txest">2015</div>
+                                            </div>
+                                            <div className="infbox">
+                                                
+                                                <div className="txestl">Rental Escolation:</div>
+                                                
+                                                <div className="txest">3-5% Per Annum</div>
+                                            </div>
+                                            
+                                        </div>
+                                   
+                                    <h4 class="pt-5 d-md-block">Related Notice</h4>
                                 </div>
                             </div>
                             <div class="col-xxl-7 side-right m-auto">
-                                <img class="img-fluid" src="./images/Homes/EstateInfo-1.png" alt="" style={{maxWidth:'80%'}}/>
+                                <img class="img-fluid" src="./images/Homes/EstateInfo-1.png" alt="" style={{maxWidth:'85%'}}/>
                             </div>
                         </div>
                     </div>
@@ -277,46 +277,46 @@ function Homes() {
                                 <div class="side-left overflow-auto">
                                     <h2>Trend Royal <br/> Project
                                     </h2>
-                                    <p class="d-none d-md-block">First real estate to be introduced on-chain via ReitsDAO</p>
-
-                                    <table>
-                                        <tbody><tr>
-                                            <th>
-                                                <h4 class="pb-4">INFO</h4>
-                                            </th>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <h6>Propery Type:</h6>
-                                            </td>
-                                            <td>Commercial</td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <h6>Lot Size:</h6>
-                                            </td>
-                                            <td>285 M2</td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <h6>Rental Yield:</h6>
-                                            </td>
-                                            <td>~0.0%</td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <h6>YEAR BUILT:</h6>
-                                            </td>
-                                            <td>2015</td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <h6>Rental Escolation:</h6>
-                                            </td>
-                                            <td>3-5% Per Annum</td>
-                                        </tr>
-                                    </tbody></table>
-                                    <h4 class="pt-5 d-none d-md-block">Related Notice</h4>
+                                    <p class="d-md-block">First real estate to be introduced on-chain via ReitsDAO</p>
+                                        <th>
+                                            <h4 class="pb-2">INFO</h4>
+                                        </th>
+                                                                                
+                                        <div className="infboxl">
+                                            <div className="infbox">
+                                                
+                                                <div className="txestl">Propery Type:</div>
+                                                
+                                                <div className="txest">Commercial</div>
+                                            </div>
+                                            <div className="infbox">
+                                                
+                                                <div className="txestl">Lot Size:</div>
+                                                
+                                                <div className="txest">285 M2</div>
+                                            </div>
+                                            <div className="infbox">
+                                                
+                                                <div className="txestl">Rental Yield:</div>
+                                                
+                                                <div className="txest">~0.0%</div>
+                                            </div>
+                                            <div className="infbox">
+                                                
+                                                <div className="txestl">YEAR BUILT:</div>
+                                                
+                                                <div className="txest">2015</div>
+                                            </div>
+                                            <div className="infbox">
+                                                
+                                                <div className="txestl">Rental Escolation:</div>
+                                                
+                                                <div className="txest">3-5% Per Annum</div>
+                                            </div>
+                                            
+                                        </div>
+                                   
+                                    <h4 class="pt-5 d-md-block">Related Notice</h4>
                                 </div>
                             </div>
                             <div class="col-xxl-7 side-right m-auto">

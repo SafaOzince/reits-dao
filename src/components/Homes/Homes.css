@@ -725,6 +725,10 @@ th {
     padding-bottom: 1.5rem!important;
 }
 
+.pb-2 {
+    padding-bottom: 0.5rem!important;
+}
+
 h4 {
     display: block;
     margin-block-start: 1.33em;
@@ -780,6 +784,21 @@ h6 {
     width: 58.33333333%;
 }}
 
+.infbox {
+    display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap:wrap;
+  width: 100%;
+  
+}
+.infboxl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
 
 /* -------------------------Section Contact------------------------------ */
 
@@ -950,4 +969,18 @@ textarea.form-control {
     padding-right: calc(var(--bs-gutter-x) * .5);
     padding-left: calc(var(--bs-gutter-x) * .5);
     margin-top: var(--bs-gutter-y);
+}
+
+.txest{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "NDAstroneer";
+
+}
+
+.txestl {
+    color: #8193a5;
+    font-family: "NDAstroneer";
+    font-size: 20px;
+    padding-right: 2rem;
 }

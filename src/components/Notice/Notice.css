@@ -7,6 +7,10 @@
     min-height: 1880px;
 }
 
+.flex {
+    display:flex;
+}
+
 .notice-1stcontainer {
     display: flex;
     flex-direction: column;
@@ -16,6 +20,7 @@
     width: 100%;
     background: #f7f7f7;
     min-height: 920px;
+    
 }
 
 .n-headercont {
@@ -32,7 +37,6 @@
 
 .n-headerinside {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -160,3 +164,23 @@
     color: #0a1f31;
   
 }
+.collapsible {
+    font-family: "NDAstroneer";
+    background-color: #fff;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0a1f31;
+  }
+  
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
