@@ -5,13 +5,15 @@
     justify-content: center;
     background: #fff;
     width: 100%;
-
+    padding-left: 4em;
+    padding-right: 4em;
 }
 
 .estdiv {
-    width: 1579px;
+    width: 100%;
     height: 0;
-    margin: 31px 106px 0 235px;
+    margin-top: 2.25em;
+    margin-bottom: 2.75em;
     border: solid 1px #d0deea;
 }
 
@@ -29,5 +31,10 @@
 }
 
 .estimg {
+    display: flex;
+    justify-content: center;
     margin-bottom: 8em;
+    margin-top: 3em;
+    padding-left: auto;
+    padding-right: auto;
 }

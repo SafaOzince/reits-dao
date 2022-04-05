@@ -5,7 +5,7 @@ return(
     <div className="estmidcont">
                     <div className="estmidconttitle">Reason for choosing investment</div>
                     <div className="estmidcontinside">
-                        <img src="./images/Images/estatetrend2.png" alt=""/>
+                        <img className="estimgg" src="./images/Images/estatetrend2.png" alt="" style={{maxWidth:'95%'}}/>
                         <div className="estmidcontright">
                             <div className="est-text1">Basic Info</div>
                             <div className="est-divider1"></div>

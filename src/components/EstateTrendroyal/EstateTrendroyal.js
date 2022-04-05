@@ -13,7 +13,7 @@ function EstateTrendroyal() {
                 <div className="estbottomtitle">Reliable and Safe Real Estate Asset Management</div>
                 <EstateBottomCard/>
                 <div className="estimg">
-                    <img src="./images/estateinfo.svg" alt=""/>
+                    <img src="./images/estateinfo.svg" alt="" style={{maxWidth:'75%'}}/>
                 </div>
             </div>
         </>
