@@ -36,7 +36,7 @@ function Homes() {
             <section id="sectionOne" className="sectionOne aos-init aos-animate" data-aos="zoom-out">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-6 d-flex align-items-center ">
+                        <div className="col-lg-6 d-flex align-items-center wdl">
                             <div className="section-one-side-left d-flex d-lg-block flex-column align-items-center text-lg-start text-center">
                                 <h1>
                                     Find Your Best Smart Real Estate
@@ -44,9 +44,9 @@ function Homes() {
                                 <a href="#">Get Your One</a>
                             </div>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 wdr">
                             <div className="section-one-side-right mt-5 mt-lg-0">
-                                <img className="img-fluid" src='./images/Homes/Home-villa.png' alt=""/>
+                                <img className="img-fluid" src='./images/Homes/Home-villa.png' alt="" style={{maxWidth:'70%'}}/>
                             </div>
                         </div>
                     </div>
@@ -57,18 +57,18 @@ function Homes() {
             <section id="sectionTwo" className="sectionTwo">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-6 aos-init aos-animate" data-aos="fade-right">
+                        <div className="col-lg-6 sc2wdl aos-init aos-animate " data-aos="fade-right">
                             <div className="section-two-left pe-lg-5">
                                 <h1>Reits Dao Finance</h1>
                                 <p>ReitsDAO is a service operated by Blokfield.Inc and is a decentralized real estate investment product service with real estate tokens linked to real assets on the BSC blockchain network.
                                 </p>
-                                <img className="img-fluid" src="./images/Homes/Section-two-png-2.png" alt=""/>
+                                <img className="img-fluid" src="./images/Homes/Section-two-png-2.png" alt="" style={{maxWidth:'80%'}}/>
                             </div>
                         </div>
 
-                        <div className="col-lg-6 mt-4 mt-lg-0 aos-init aos-animate" data-aos="fade-left">
+                        <div className="col-lg-6 mt-4 mt-lg-0 sc2wdr aos-init aos-animate" data-aos="fade-left">
                             <div className="section-two-right ps-lg-5">
-                                <img className="img-fluid" src="./images/Homes/Section-two-png-1.png" alt=""/>
+                                <img className="img-fluid" src="./images/Homes/Section-two-png-1.png" alt="" style={{maxWidth:'80%'}}/>
                                 <p>ReitsDAO’s token economy model is designed to be very simple. ReitsDAO issues “RDF” tokens that are collateralized with real estate values, and “RDF” tokens reflect the value and revenue of all real estate owned by ReitsDAO. Therefore,
                                     the value of “RDF” token can be said to be the sum of all real estate values and profits owned by ReitsDAO. ReitsDAO does not issue new tokens reflecting each real estate value and is managed only as “RDF”.</p>
                             </div>
@@ -86,9 +86,9 @@ function Homes() {
                             <p>Market Profit</p>
                             <p>Rental Income</p>
                         </div>
-                        <img src="./images//Homes/Section-thre-photo.png" className="img-fluid" alt=""/>
+                        <img src="./images//Homes/Section-thre-photo.png" className="img-fluid" alt=""style={{maxWidth:'75%'}}/>
                         <div className="row content">
-                            <div className="col-lg-6 pe-lg-5">
+                            <div className="col-lg-6 pe-lg-5 sc3wdl">
                                 <p className="mb-5">
                                     Based on the long-term analysis of Kusadasi, a resort town in western Turkey, we purchase real estate (villas, apartments, shopping malls) based on location conditions and profitability. The rental income generated through this is linked to revenue by
                                     increasing the token value on a regular basis.
@@ -99,7 +99,7 @@ function Homes() {
                                     can participate..
                                 </p>
                             </div>
-                            <div className="col-lg-6 ps-lg-5 mt-lg-0 mt-5">
+                            <div className="col-lg-6 ps-lg-5 mt-lg-0 mt-5 sc3wdl">
                                 <p>Due to the characteristics of the blockchain system, as the number of “RDF” token holders increases, the network fee borne by ReitsDAO will increase, and the dividend income that holders can actually receive will decrease. In addition,
                                 the participation of bots that purchase and sell tokens only during the dividend period increases and the possibility of abuse is very high. In the case of a dividend system, it can be an advantage if it consists of a small
                                 number of investors, but it is not a good token economy model for the ReitsDAO system, where small investments are possible and there are many participants.

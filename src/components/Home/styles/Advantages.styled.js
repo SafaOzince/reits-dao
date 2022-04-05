@@ -15,7 +15,7 @@ export const StyledAdvantages = styled.div`
 `
 export const StyledAdvantages1 = styled.div`
   display: flex;
-  width: 1920px;
+  width: 100%;
   align-items: center;
   background-color: #02264a;
   color: #fff;
