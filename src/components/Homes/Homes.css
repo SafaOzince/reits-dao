@@ -819,6 +819,9 @@ h6 {
 
 .contact form {
     padding: 0 100px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 form {

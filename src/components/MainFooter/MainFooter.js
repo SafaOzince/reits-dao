@@ -12,13 +12,22 @@ align-items:center;
 padding: 6px;
 
 `
+const theme = {
+    colors:{
+      header: '#02264a',
+      body: '#fff',
+      footer: '#011a34',
+      contactbutton: '#29527b',
+    },
+    mobile: '768px',
+  }
 
 export default function MainFooter() {
   return (
     <StyledMainFooter>
         <Container>
             <Flex>
-                <ul>
+                <ul style={{padding:"2rem"}}>
                 <img src="./images/flogo.svg" alt="" />
                 </ul>
                 <ul>

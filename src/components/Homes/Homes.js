@@ -41,7 +41,7 @@ function Homes() {
                                 <h1>
                                     Find Your Best Smart Real Estate
                                 </h1>
-                                <a href="#">Get Your One</a>
+                                <a href="/estateinfo">Get Your One</a>
                             </div>
                         </div>
                         <div className="col-lg-6 wdr">
@@ -216,7 +216,7 @@ function Homes() {
             <section id="sectionEight" class="sectionEight aos-init aos-animate" data-aos="fade-up">
                 <div class="container-fluid padding">
                     <h1 class="title mb-5">Estate Info</h1>
-                    <div class="estate-body aos-init aos-animate" data-aos="fade-up">
+                    {/* <div class="estate-body aos-init aos-animate" data-aos="fade-up">
                         <div class="row">
                             <div class="col-xxl-5 d-flex flex-column justify-content-center">
                                 <div class="side-left overflow-auto">
@@ -269,7 +269,7 @@ function Homes() {
                                 <img class="img-fluid" src="./images/Homes/EstateInfo-1.png" alt="" style={{maxWidth:'85%'}}/>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     <div class="estate-body aos-init aos-animate" data-aos="fade-up">
                         <div class="row">
@@ -316,11 +316,11 @@ function Homes() {
                                             
                                         </div>
                                    
-                                    <h4 class="pt-5 d-md-block">Related Notice</h4>
+                                    <h4 className="pt-5 d-md-block">Related Notice</h4>
                                 </div>
                             </div>
-                            <div class="col-xxl-7 side-right m-auto">
-                                <img class="img-fluid" src="./images/Homes/EstateInfo-2.png" alt="" style={{maxWidth:'80%'}}/>
+                            <div className="col-xxl-7 side-right m-auto">
+                                <img className="img-fluid" src="./images/Homes/EstateInfo-2.png" alt="" style={{maxWidth:'80%'}}/>
                             </div>
                         </div>
                     </div>
@@ -328,37 +328,37 @@ function Homes() {
             </section>
             {/* Section 8 End */}
             {/* Section Contact */}
-            <section id="contact" class="contact">
-                <div class="container">
-                    <h1 class="text-center mb-5">Contact</h1>
-                    <form class="form">
-                        <div class="row1 justify-content-center">
-                            <div class="col-lg-4 form-column">
-                                <div class="form-group">
-                                    <input type="text" name="" id="" class="form-control" placeholder="Your name"/>
+            <section id="contact" className="contact">
+                <div className="container">
+                    <h1 className="text-center mb-5">Contact</h1>
+                    <form className="form">
+                        <div className="row1 justify-content-center">
+                            <div className="col-lg-4 form-column">
+                                <div className="form-group">
+                                    <input type="text" name="" id="" className="form-control" placeholder="Your name"/>
                                 </div>
                             </div>
-                            <div class="col-lg-4 form-column">
-                                <div class="form-group">
-                                    <input type="text" name="" id="" class="form-control" placeholder="Sur name"/>
+                            <div className="col-lg-4 form-column">
+                                <div className="form-group">
+                                    <input type="text" name="" id="" className="form-control" placeholder="Sur name"/>
                                 </div>
                             </div>
-                            <div class="col-lg-8 form-column">
-                                <div class="form-group">
-                                    <input type="text" name="" id="" class="form-control" placeholder="Mail"/>
+                            <div className="col-lg-8 form-column">
+                                <div className="form-group">
+                                    <input type="text" name="" id="" className="form-control" placeholder="Mail"/>
                                 </div>
                             </div>
-                            <div class="col-lg-8 form-column">
-                                <div class="form-group">
-                                    <input type="text" name="" id="" class="form-control" placeholder="Phone"/>
+                            <div className="col-lg-8 form-column">
+                                <div className="form-group">
+                                    <input type="text" name="" id="" className="form-control" placeholder="Phone"/>
                                 </div>
                             </div>
-                            <div class="col-lg-8 form-column">
-                                <div class="form-group">
-                                    <textarea class="form-control" name="" id="" rows="6" placeholder="Your Message"></textarea>
+                            <div className="col-lg-8 form-column">
+                                <div className="form-group">
+                                    <textarea className="form-control" name="" id="" rows="6" placeholder="Your Message"></textarea>
                                 </div>
                             </div>
-                            <div class="col-lg-8"><button class="btncustom w-100 p-3">Send</button></div>
+                            <div className="col-lg-8"><button className="btncustom w-100 p-3">Send</button></div>
                         </div>
                     </form>
                 </div>

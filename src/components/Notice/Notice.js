@@ -16,8 +16,13 @@ import './accordion.css'
 
 export const Flex = styled.div`
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  padding:55px;
 `;
 
 const Imagee = styled.img`
@@ -111,7 +116,7 @@ const items = [
       <div className="notice">
         <div className="notice-1stcontainer">
           <div className="n-headercont">
-            <div className="headerinside">
+            <div className="n-headerinside">
               <div className="n-headertitle">Notice</div>
               <div className="n-subtit">
                 Notes on Participating in REITs DAO Real Estate IPO
@@ -120,7 +125,9 @@ const items = [
               <div className="n-subtit">Investment review sharing event</div>
               <div className="n-subtit">System check guide</div>
             </div>
-            <img src="./images/noticeheader.svg" alt="" />
+            <div className="n-topimage">
+              <img src="./images/noticeheader.svg" alt="" />
+            </div>
           </div>
           <div className="n-title">Medium News</div>
           <div>

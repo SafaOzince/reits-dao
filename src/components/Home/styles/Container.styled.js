@@ -4,9 +4,10 @@ import headerbg from './headerbg.svg'
 
 export const Container = styled.div`
 width: 100%;
-max-width: 1920px;
+height: 100%;
 padding: 0 20px;
-margin: 0 auto;
+margin-left: auto;
+margin-right: auto;
 `
 export const HeaderContainer = styled.div`
 display: flex;

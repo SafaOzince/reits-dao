@@ -1,41 +1,55 @@
 .defi {
-    background: #02264a; 
-    height: 206px;
+    background: #02264a;
+    min-height: 206px;
+    height: 100%;
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
     font-size: 26px;
     position: relative;
+    margin-left: auto;
     top: 0;
-    z-index: 999;
+    margin-right: auto;
+    z-index: 1;
 }
 
 .defi-container {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    max-width: 1920px;
     width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5rem;
 }
 
 .d-cont {
     display: flex;
     justify-content: space-around;
-    width: 360px;
+    width: 30%;
   
 }
 
 .d-cont1 {
-    width: 360px;
+    width: 30%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 20px;
 }
 
 .d-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.d-value {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -53,6 +67,7 @@
     text-align: left;
     margin: 0.5rem;
     color: #fff;
+    white-space: nowrap;
 }
 
 .d-textvalue {
@@ -66,7 +81,7 @@
     text-align: left;
     margin: 0.5rem;
     color: #fd6920;
-
+    white-space: nowrap;
 }
 
 .defi-body {
@@ -75,8 +90,10 @@
     justify-content: center;
     align-items: center;
     background: #fff; 
-    max-width: 1920px;
     min-height: 783px;
+    width: 100%;
+    height: 100%;
+    padding: 2.5rem;
 }
 
 .d-header {
@@ -90,18 +107,25 @@
     text-align: center;
     margin: 0 432px 61px;
     color:#02264a;
+    white-space: nowrap;
 }
 
 .d-cards {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
 }
 .d-card {
-    width: 360px;
-    height: 477px;
-    margin: 0 41px 0 0;
-    
+    width: calc(33% - 16px);
+    max-width: 600px;
+    min-height: 477px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 17px;
     box-shadow: 0 3px 6px 0 #c6d5e3;
     background-color: #fff;
@@ -127,14 +151,21 @@
 }
 
 .d-logo {
-    width: 160px;
-    height: 160px;
+    width: 100%;
+    height: 100%;
+    max-width: 160px;
+    max-height: 160px;
     object-fit: contain;
 }
 
 .d-comm {
-    width: 318px;
-    height: 91px;
+    width: 80%;
+    height: 100%;
+    /* width: 318px; */
+    min-height: 91px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 .d-par {
@@ -148,4 +179,130 @@
     letter-spacing: normal;
     text-align: center;
     color:#02264a;
+}
+
+.meta-logo {
+
+    margin-right: 1.45em;
+}
+@media screen and (max-width: 992px) {
+   
+    .d-cont{
+        width: 60%;
+    }
+
+    .d-cont1{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .d-value{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-end;
+    }
+
+    .meta-logo{
+        margin-bottom: 1em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .d-card{
+        width: 60%;
+        margin: 2rem;
+    }
+
+    .d-header{
+        margin-top: 1.1em;
+        font-size: 48px;
+    }
+    .d-logo{
+        max-width: 100%;
+        width: 70%;
+        max-height: 100%;
+        height: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .d-comm {
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .d-title{
+        font-size: 36px;
+    }
+    .d-par {
+        font-family: "NDAstroneer";
+        font-size: 24px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.15;
+        letter-spacing: normal;
+        width: 70%;
+        text-align: center;
+        color: #02264a;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .defi-container{
+        padding:1.5rem;
+    }
+    .d-cont{
+        width: 80%;
+        
+    }
+    .d-cont1{
+        width: 80%;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+        
+    }
+    .d-value{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-end;
+    }
+    .d-logo{
+        width: 60%;
+        height: 60%;
+    }
+
+    .d-header{
+        font-size: 40px;
+    }
+
+    .d-title{
+        font-size: 32px;
+    }
+
+    .d-par {
+        font-family: "NDAstroneer";
+        font-size: 20px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.15;
+        letter-spacing: normal;
+        text-align: center;
+        color: #02264a;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

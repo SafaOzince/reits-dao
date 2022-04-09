@@ -5,7 +5,15 @@ return(
     <div className="estmidcont">
                     <div className="estmidconttitle">Reason for choosing investment</div>
                     <div className="estmidcontinside">
-                        <img className="estimgg" src="./images/Images/estatetrend2.png" alt="" style={{maxWidth:'95%'}}/>
+                        <div className="estimgg">
+                            <iframe src="https://www.youtube.com/embed/sxipJELtDJk" style={{width:"100%", height:"100%", minHeight: "350px"}}
+                            frameborder='0'
+                            allow='autoplay; encrypted-media'
+                            allowfullscreen="true"
+                            title='video'
+                            />
+                        </div>
+                        {/* <img className="estimgg" src="./images/Images/estatetrend2.png" alt="" style={{maxWidth:'95%'}}/> */}
                         <div className="estmidcontright">
                             <div className="est-text1">Basic Info</div>
                             <div className="est-divider1"></div>
@@ -59,22 +67,25 @@ return(
                     </div>
                     <div className="est-divider2"></div>
                     <div className="estmidcontinside2">
+                        <div className="imglog">
+                            <img src="./images/projecttpng.png" alt="" style={{width: "30%"}}/>
+                        </div>
                         <div className="estfinish2">ContractDocuments</div>
                         <div className="estmidcontinside">
                             <div className="estcardbox">
-                                <img src="./images/Group-9152.svg" alt=""/>
+                                {/* <img src="./images/Group-9152.svg" alt=""/> */}
                                 <div className="est-boxtit">Estate Agent Licence</div>
                             </div>
                             <div className="estcardbox">
-                                <img src="./images/Group-9152.svg" alt=""/> 
+                                {/* <img src="./images/Group-9152.svg" alt=""/>  */}
                                 <div className="est-boxtit">Registered Documents</div>
                             </div>
                             <div className="estcardbox">
-                                <img src="./images/Group-9152.svg" alt=""/>
+                                {/* <img src="./images/Group-9152.svg" alt=""/> */}
                                 <div className="est-boxtit">Contract Document</div>
                             </div>
                             <div className="estcardbox">
-                                <img src="./images/Group-9152.svg" alt=""/>
+                                {/* <img src="./images/Group-9152.svg" alt=""/> */}
                                 <div className="est-boxtit">Reits Dao Company Document</div>
                             </div>
                         </div>

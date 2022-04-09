@@ -17,8 +17,8 @@
 
 .accordion__item + .accordion__item {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
-  border:1px solid #f0f0f0;
-
+  border:solid 2px #f0f0f0;
+  border-radius: 18px;
 }
 
 .accordion__button {

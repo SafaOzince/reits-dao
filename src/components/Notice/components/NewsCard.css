@@ -1,7 +1,9 @@
 .newscard {
-    width: 454px;
-    height: 235px;
-    margin: 0 31px 0 0;
+    width: 30%;
+    height: 100%;
+    min-height: 235px;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 17px;
     box-shadow: 0 3px 6px 0 #c6d5e3;
     background-color: #fff;
@@ -9,10 +11,12 @@
     flex-direction: column;
     align-items: flex-end;
     padding: 1rem;
+
 }
 
 .newsinbox{
-    height: 125px;
+    height: 100%;
+    min-height: 125px;
     text-align: left;
     margin-left: 1rem;
 }
@@ -39,4 +43,24 @@
     letter-spacing: normal;
     text-align: left;
     color: #acacac;
+}
+
+@media screen and (max-width: 992px) {
+    .newscard {
+        width: 85%;
+        margin-bottom: 2.5em;
+    }
+    .news-title {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 540px) {
+    .newscard {
+        width: 100%;
+        margin-bottom: 1.5em;
+    }
+
+    .news-title {
+        font-size: 20px;
+    }
 }

@@ -19,7 +19,7 @@ function Partners() {
                         <div className="p-comment">Accountant</div>
                     </div>
                 </div>
-                <div >
+                <div className="p-bottompart">
                     <div className="p-title">Defi Partners</div>
                     <div className="p-bigbox">   
                         <div className="p-box">

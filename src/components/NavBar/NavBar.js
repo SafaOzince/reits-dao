@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from "react";
+import { FaBars, FaTimes} from "react-icons/fa";
 import { Link } from "react-router-dom";
 import './NavBar.css';
 import { Button } from './components/Button';
@@ -47,7 +48,7 @@ function NavBar() {
                         </li>
                         <li className="nav-item">
                           <div className="dropdown">
-                            <Link to="/estateinfo" className="nav-links" onClick={closeMobileMenu}>
+                            <Link to="" className="nav-links" onClick={closeMobileMenu}>
                              Estate Info     
                             </Link>
                                   <div class="dropdown-content">
@@ -79,7 +80,7 @@ function NavBar() {
                             
                         </li>
                         <li>
-                            <Link to="/contact" className="nav-links-mobile" onClick={closeMobileMenu}>
+                            <Link to="/" className="nav-links-mobile" onClick={closeMobileMenu}>
                                 Contact
                             </Link>
                         </li>

@@ -3,15 +3,19 @@ import styled from "styled-components";
 export const Flex= styled.div`
   display: flex;
   align-items: center;
-  
+  padding: 1rem;
 
   & > div,
   & > ul{
       flex: 1;
   }
 
-  @media(max-width: ${({ theme }) => theme.mobile}) {
+  @media screen and (max-width: 992px) {
+    display: flex;
     flex-direction: column;
-    text-align: center;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
   }
+  
 `

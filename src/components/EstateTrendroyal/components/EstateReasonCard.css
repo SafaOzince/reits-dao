@@ -3,7 +3,7 @@
     margin-left:auto;
     margin-right: auto;
     padding: 35px;
-    background-color: #02264a;
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -20,7 +20,7 @@
     line-height: 1.18;
     letter-spacing: normal;
     text-align: center;
-    color: #fff;
+    color: #02264a;
     margin-bottom: 1em;
 }
 
@@ -75,7 +75,7 @@
     line-height: 2.32;
     letter-spacing: normal;
     text-align: left;
-    color: #fff;
+    color: #02264a;
 }
 
 .est-text2{
@@ -87,7 +87,7 @@
     line-height: 1.08;
     letter-spacing: normal;
     text-align: left;
-    color: #fff;
+    color: #02264a;
 }
 
 .est-text3{
@@ -99,7 +99,7 @@
     line-height: 1.33;
     letter-spacing: normal;
     text-align: left;
-    color: #fff;
+    color: #6d8dad;
 }
 
 .est-divider1 {
@@ -107,7 +107,7 @@
     height: 0;
     margin-top: 2em;
     margin-bottom:0.75em;
-    border: solid 1px #2e4d6c;
+    border: solid 1px #e5e5e5;
   
 }
 
@@ -124,10 +124,10 @@
     width: 190px;
     height: 237px;
     margin: 1rem;
-    color: #fff;
+    /* color: #02264a; */
     opacity: 0.15;
     border-radius: 16px;
-    border: solid 2px #fff;
+    border: solid 3px #02264a;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -135,7 +135,7 @@
 }
 
 .estfinish2 {
-    -webkit-text-stroke: 1px #fff;
+    -webkit-text-stroke: 1px #02264a;
 font-family: "NDAstroneer";
 font-size: 32px;
 font-weight: normal;
@@ -144,7 +144,7 @@ font-style: normal;
 line-height: 3.72;
 letter-spacing: normal;
 text-align: left;
-color: #fff;
+color: #02264a;
 
 }
 .estmidcontinside2 {
@@ -153,6 +153,16 @@ color: #fff;
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    background-color: #f5faff;
+    border-radius: 0 0 12px 12px;
+}
+
+.imglog{
+    display: flex;
+    align-items:flex-end ;
+    justify-content: flex-end;
+    width: 20%;
+    height: 20%;
 }
 
 .est-boxtit {
@@ -164,5 +174,5 @@ color: #fff;
   line-height: 1.15;
   letter-spacing: normal;
   text-align: center;
-  color: #fff;
+  color: #02264a;
 }

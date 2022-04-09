@@ -1,4 +1,3 @@
-import { Container } from "../Home/styles/Container.styled";
 import { Button } from "./components/Button";
 import "./Defi.css"
 
@@ -20,7 +19,7 @@ function Defi() {
                             Total Burned
                         </div>
                     </div>
-                    <div className="d-name">
+                    <div className="d-value">
                         <div className="d-textvalue">
                             380,499
                         </div>
@@ -41,7 +40,7 @@ function Defi() {
                             RDF Token Price
                         </div>
                     </div>
-                    <div className="d-name">
+                    <div className="d-value">
                         <div className="d-textvalue">
                             504
                         </div>
@@ -51,7 +50,7 @@ function Defi() {
                     </div>    
                 </div>
                 <div className="d-cont1">
-                    <img src="./images/meta-logo.svg" alt=""/>
+                    <img className="meta-logo" src="./images/meta-logo.svg" alt=""/>
                     <Button buttonStyle="btn--primary">Add to Metamask</Button>
                  
                 </div>
@@ -65,7 +64,7 @@ function Defi() {
                             Robinia
                         </div>
                         <div className="d-logo">
-                            <img src="./images/rv2logo.svg" alt=""/>
+                            <img src="./images/rv2logo.svg" alt="" />
                         </div>
                         <div className="d-comm">
                             <div className="d-par">
