@@ -6,7 +6,7 @@ section {
 .sectionOne {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    padding-top: 150px;
+    /* padding-top: 150px; */
     background-color: #02264a;
     position: relative;
     z-index: 1;

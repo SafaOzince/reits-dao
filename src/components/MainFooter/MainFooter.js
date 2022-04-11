@@ -40,17 +40,17 @@ export default function MainFooter() {
                 <ul>
                     <Sc>
                     <img className="mr-2" src="./images/phone.svg" alt=""  /> 
-                    <div>0 (212) 530 92 15</div>
+                    <div>0 (232) 532 00 35</div>
                     </Sc>
                     <Sc>
                     <img className="mr-2"src="./images/fax.svg" alt="" /> 
-                    <div>0 (212) 530 92 15</div>
+                    <div>0 (232) 532 00 35</div>
                     </Sc>
                 </ul>
                 <ul>
                     <Sc>
                     <img className="mr-2" src="./images/mail.svg" alt="" />
-                    <div>info@reitsdao.com</div>
+                    <div>contact@reitsdao.com</div>
                     </Sc>
                     <Sc>
                     <img className="mr-2" src="./images/location.svg" alt="" />
