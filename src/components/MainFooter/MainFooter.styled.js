@@ -13,7 +13,7 @@ const theme = {
 export const StyledMainFooter = styled.footer`
   background-color: #011a34;  
   color: #fff;
-  padding: 50px 0 24px;
+  padding: 36px 0 24px;
 
   ul {
       list-style-type: none;

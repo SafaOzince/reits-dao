@@ -37,10 +37,18 @@ function Homes() {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6 d-flex align-items-center wdl">
-                            <div className="section-one-side-left d-flex d-lg-block flex-column align-items-center text-lg-start text-center">
-                                <h1>
-                                    Find Your Best Smart Real Estate
-                                </h1>
+                            <div className="section-one-side-left d-flex d-lg-block flex-column align-items-center text-lg-start text-center mcenter">
+                            {/* <div className="weltitle"> */}
+                                <div className="weltitle">
+                                Find Your Best 
+                                </div>
+                                <div className="weltitle">
+                                Smart Real 
+                                </div>
+                                <div className="weltitle">
+                                Estate
+                                </div>
+                            {/* </div> */}
                                 <a href="/estateinfo">Get Your One</a>
                             </div>
                         </div>
@@ -62,13 +70,13 @@ function Homes() {
                                 <h1>Reits Dao Finance</h1>
                                 <p>ReitsDAO is a service operated by Blokfield.Inc and is a decentralized real estate investment product service with real estate tokens linked to real assets on the BSC blockchain network.
                                 </p>
-                                <img className="img-fluid" src="./images/Homes/Section-two-png-2upd.jpg" alt="" style={{maxWidth:'80%'}}/>
+                                <img className="img-fluid" src="./images/Homes/Section-two-png-2upd.jpg" alt="" style={{maxWidth:'80%', borderRadius:"14px"}}/>
                             </div>
                         </div>
 
                         <div className="col-lg-6 mt-4 mt-lg-0 sc2wdr aos-init aos-animate" data-aos="fade-left">
                             <div className="section-two-right ps-lg-5">
-                                <img className="img-fluid" src="./images/Homes/Section-two-png-1upd.jpg" alt="" style={{maxWidth:'80%'}}/>
+                                <img className="img-fluid" src="./images/Homes/Section-two-png-1upd.jpg" alt="" style={{maxWidth:'80%', borderRadius:"14px", marginTop:'7em'}}/>
                                 <p>ReitsDAO’s token economy model is designed to be very simple. ReitsDAO issues “RDF” tokens that are collateralized with real estate values, and “RDF” tokens reflect the value and revenue of all real estate owned by ReitsDAO. Therefore,
                                     the value of “RDF” token can be said to be the sum of all real estate values and profits owned by ReitsDAO. ReitsDAO does not issue new tokens reflecting each real estate value and is managed only as “RDF”.</p>
                             </div>
@@ -320,7 +328,30 @@ function Homes() {
                                 </div>
                             </div>
                             <div className="col-xxl-7 side-right m-auto">
-                                <img className="img-fluid" src="./images/Homes/EstateInfo-2.png" alt="" style={{maxWidth:'80%'}}/>
+                                <div className="titlecont">
+                                    <div className="estjpgtitle">Site Overview</div>
+                                    <div className="estjpgtitle">Swimming Pool</div>
+                                </div>
+                                <div className="estjpg">
+                                    <img className="img-fluid1" src="./images/Homes/EstateInfo-2a.jpg" alt="" style={{maxWidth:'45%', borderRadius:"14px"}}/>
+                                    <img className="img-fluid1" src="./images/Homes/EstateInfo-2b.jpg" alt="" style={{maxWidth:'45%', borderRadius:"14px"}}/>
+                                </div>
+                                <div className="titlecont">
+                                    <div className="estjpgtitle">Dining Room</div>
+                                    <div className="estjpgtitle">Bathroom</div>
+                                </div>
+                                <div className="estjpg">
+                                    <img className="img-fluid1" src="./images/Homes/EstateInfo-2c.jpg" alt="" style={{maxWidth:'45%', borderRadius:"14px"}}/>
+                                    <img className="img-fluid1" src="./images/Homes/EstateInfo-2d.jpg" alt="" style={{maxWidth:'45%', borderRadius:"14px"}}/>
+                                </div>
+                                <div className="titlecont">
+                                    <div className="estjpgtitle">Ocean view</div>
+                                    <div className="estjpgtitle">Garden</div>
+                                </div>
+                                <div className="estjpg">
+                                    <img className="img-fluid1" src="./images/Homes/EstateInfo-2e.jpg" alt="" style={{maxWidth:'45%', borderRadius:"14px", minHeight:'178px'}}/>
+                                    <img className="img-fluid1" src="./images/Homes/EstateInfo-2f.jpg" alt="" style={{maxWidth:'45%', borderRadius:"14px"}}/>
+                                </div>
                             </div>
                         </div>
                     </div>
