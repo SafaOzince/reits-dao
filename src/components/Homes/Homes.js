@@ -329,7 +329,7 @@ function Homes() {
             {/* Section 8 End */}
             {/* Section Contact */}
             <section id="contact" className="contact">
-                <div className="container">
+                <div className="contactcontainer">
                     <h1 className="text-center mb-5">Contact</h1>
                     <form className="form">
                         <div className="row1 justify-content-center">

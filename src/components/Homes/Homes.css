@@ -804,13 +804,36 @@ h6 {
 
 
 .contact {
-    padding: 100px 0;
+    padding: 24px 0;
     background-color: #02264a;
     background-image: url(./contact-bg.png);
     background-position: center;
     background-repeat: no-repeat;
 }
 
+.contactcontainer{
+    width: 65%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 1492px){
+    .contactcontainer{
+        width: 85%;
+    }
+}
+@media screen and (max-width: 1202px){
+    .contactcontainer{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 992px){
+    .contactcontainer{
+        width: 95%;
+    }
+}
 .contact h1 {
     color: #ffffff;
     font-size: 65px;

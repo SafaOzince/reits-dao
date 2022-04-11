@@ -13,7 +13,7 @@ const theme = {
 export const StyledMainFooter = styled.footer`
   background-color: #011a34;  
   color: #fff;
-  padding: 100px 0 60px;
+  padding: 50px 0 24px;
 
   ul {
       list-style-type: none;
@@ -28,11 +28,11 @@ export const StyledMainFooter = styled.footer`
   }
 
   @media screen and (max-width: 992px) {
-    padding: 70px 0 30px;
+    padding: 36px 0 16px;
   }
   
   @media screen and (max-width: 540px) {
-    padding: 40px 0 26px;
+    padding: 28px 0 12px;
       text-align: center;
       ul {
           padding: 0;
