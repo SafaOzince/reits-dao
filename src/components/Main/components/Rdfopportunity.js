@@ -5,6 +5,7 @@ import "./Rdfopportunity.css"
 export default function Rdfopportunity() {
     return (
         <>
+        <div className="scontainer">
             <div className="lightcontainer">
                 <div className="col-5">
                     <div className="hero-container">
@@ -50,6 +51,7 @@ export default function Rdfopportunity() {
                     </div>
                 </div>
             </div>
+        </div>
         </>
     )
     }

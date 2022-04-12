@@ -864,29 +864,95 @@ h6 {
     background-image: url(./contact-bg.png);
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contactcontainer{
-    width: 65%;
+    width: 60%;
     padding-right: var(--bs-gutter-x,.75rem);
     padding-left: var(--bs-gutter-x,.75rem);
     margin-right: auto;
     margin-left: auto;
 }
-
-@media screen and (max-width: 1492px){
+@media screen and (max-width: 1900px){
     .contactcontainer{
         width: 85%;
+    }.contact form {
+        padding: 0 96px;
+    }
+}
+@media screen and (max-width: 1800px){
+    .contactcontainer{
+        width: 85%;
+    }
+    .contact form {
+        padding: 0 90px;
+    }
+}
+@media screen and (max-width: 1700px){
+    .contactcontainer{
+        width: 85%;
+    }
+    .contact form {
+        padding: 0 80px;
+    }
+}
+@media screen and (max-width: 1600px){
+    .contactcontainer{
+        width: 85%;
+    }
+    .contact form {
+        padding: 0 70px;
+    }
+}
+@media screen and (max-width: 1500px){
+    .contactcontainer{
+        width: 85%;
+    }
+    .contact form {
+        padding: 0 60px;
     }
 }
 @media screen and (max-width: 1202px){
     .contactcontainer{
         width: 90%;
     }
+    .contact form {
+        padding: 0 30px;
+    }
 }
 @media screen and (max-width: 992px){
     .contactcontainer{
         width: 95%;
+    }
+    .contact form {
+        padding: 0 20px;
+    }
+}
+@media screen and (max-width: 768px){
+    .contactcontainer{
+        width: 95%;
+    }
+    .contact form {
+        padding: 0 15px;
+    }
+}
+@media screen and (max-width: 540px){
+    .contactcontainer{
+        width: 100%;
+    }
+    .contact form {
+        padding: 0 10px;
+    }
+}
+@media screen and (max-width: 420px){
+    .contactcontainer{
+        width: 100%;
+    }
+    .contact form {
+        padding: 0 8px;
     }
 }
 .contact h1 {
@@ -896,8 +962,8 @@ h6 {
 }
 
 .contact form {
-    padding: 0 100px;
-    width: 90%;
+    /* padding: 0 100px; */
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }

@@ -5,7 +5,7 @@ import "./Lastcontact.css"
 export default function Lastcontact() {
     return (
         <>   
-        
+        <div className="scontainer">
         <div className="contactcontainer">
                     <h1 className="text-center mb-5">Contact</h1>
                     <form className="form">
@@ -38,6 +38,7 @@ export default function Lastcontact() {
                             <div className="col-lg-8"><button className="btncustom w-100 p-3">Send</button></div>
                         </div>
                     </form>
+                </div>
                 </div>
                 </> 
     )
