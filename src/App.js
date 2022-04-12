@@ -19,6 +19,7 @@ import Defi from "./components/Defi/Defi";
 import Notice from "./components/Notice/Notice";
 import EstateTrendroyal from "./components/EstateTrendroyal/EstateTrendroyal";
 import Homes from "./components/Homes/Homes";
+import Main from "./components/Main/Main";
 
 const theme = {
   colors:{
@@ -36,7 +37,7 @@ function App() {
       <Router>
         <Navbar/>
         <Switch>
-          <Route path='/' exact component={Homes}/>
+          <Route path='/' exact component={Main}/>
           <Route path='/estateinfo' exact component={EstateTrendroyal}/>
           <Route path='/defi' exact component={Defi}/>
           <Route path='/partners' exact component={Partners}/>

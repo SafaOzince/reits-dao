@@ -1,0 +1,70 @@
+.section-One {
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    /* padding-top: 150px; */
+    background-color: #02264a;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-One::before {
+    background: linear-gradient(90deg, #02264a 0%, rgba(2, 38, 74, 0.548) 8%, rgba(2, 38, 74, 0.594275) 26%, rgba(2, 38, 74, 0.8) 50%, rgba(2, 38, 74, 0.759541) 75%, rgba(2, 38, 74, 0.499037) 100%), url(./test.svg);
+    background-repeat: repeat;
+    background-size: contain; 
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+
+.section-Two {
+    background-color: #ffffff;
+    background-image: url(./Section-two-bg.png); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-Thre {
+    background-color: #02264a;
+    background-size: cover;
+    background-image: url(./Section-thre-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-Five {
+    background-color: #02264a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-Six {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-Eight {
+    background-color: #001a34;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

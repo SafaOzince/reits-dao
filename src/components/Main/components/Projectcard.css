@@ -1,0 +1,219 @@
+
+.section-Eight .padding {
+    padding: 0 100px;
+}
+
+.section-Eight .title {
+    text-align: center;
+    color: #ffffff;
+    font-size: 65px;
+    font-family: "NDAstroneer";
+}
+
+.section-Eight .estate-body {
+    background-color: #02264a;
+    border-radius: 26px;
+    margin-bottom: 49px;
+}
+
+@media screen and (max-width: 1400px){
+.col-xxl-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+}}
+
+@media screen and (max-width: 1800px){
+.section-Eight .estate-body .side-left {
+    padding: 40px 80px;
+}}
+
+.section-Eight .estate-body .side-left {
+    padding: 80px 80px;
+}
+
+.overflow-auto {
+    overflow: auto!important;
+}
+
+.section-Eight .estate-body h2 {
+    color: #ffffff;
+    font-size: 50px;
+    font-family: "NDAstroneer";
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.section-Eight .estate-body p {
+    color: #ffffff;
+    font-size: 24px;
+    font-family: "NDAstroneer";
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 768px){
+.d-md-block {
+    display: block!important;
+}}
+
+.d-none {
+    display: none!important;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tbody, td, tfoot, th, thead, tr {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+
+.section-Eight .estate-body h4 {
+    color: #8193a5;
+    font-family: "NDAstroneer";
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+.pb-4 {
+    padding-bottom: 1.5rem!important;
+}
+
+.pb-2 {
+    padding-bottom: 0.5rem!important;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.section-Eight .estate-body td {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "NDAstroneer";
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.section-Eight .estate-body h6 {
+    color: #8193a5;
+    font-family: "NDAstroneer";
+    font-size: 20px;
+    padding-right: 2rem;
+}
+
+h6 {
+    display: block;
+    font-size: 0.67em;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.pt-5 {
+    padding-top: 3rem!important;
+}
+
+.section-Eight .estate-body .side-right {
+    padding: 30px 40px 30px 0px;
+}
+
+.m-auto {
+    margin: auto!important;
+}
+
+@media screen and (max-width: 1400px){
+.col-xxl-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+}}
+
+.infbox {
+    display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap:wrap;
+  width: 100%;
+  
+}
+.infboxl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+
+.estjpg{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.estjpgtitle{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #eaf3ff;
+    text-align: center;
+    border-radius: 13px;
+    color: #8193a5;
+    font-family: "NDAstroneer";
+    font-size: 20px;
+    
+}
+
+.titlecont{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-fluid1 {
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.5rem;
+}

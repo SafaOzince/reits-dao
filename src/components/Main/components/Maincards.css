@@ -1,0 +1,98 @@
+/* .section-Six {
+    background-color: #ffffff;
+    padding: 26px 100px;
+} */
+
+@media screen and (max-width: 992px){
+
+}
+
+.p-5 {
+    padding: 3rem!important;
+}
+
+.section-Six .main-card {
+    overflow: hidden;
+    border-radius: 20px;
+    -webkit-box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+    box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+}
+
+.section-Six .bgorange {
+    background-color: #ffe7bf;
+}
+
+.section-Six .main-card .card-head {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.section-Six .main-card .card-head img {
+    width: 35%;
+}
+
+.section-Six .main-card .card-body {
+    background-color: #ffffff;
+    padding: 34px 0;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+}
+
+.section-Six .main-card .card-body h2 {
+    text-align: center;
+    color: #02264a;
+    font-size: 34px;
+    font-family: "NDAstroneer";
+}
+
+.section-Six .bggreen {
+    background-color: #eafdff;
+}
+
+.section-Six .bgblue {
+    background-color: #eaf3ff;
+}
+
+.sc6wdl {
+    margin-left: auto;
+    margin-right: auto;
+    width: 31%;
+    
+}
+.cardwrap {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+.cardtext-1{
+    font-family: "NDAstroneer";
+    color: #02264a;
+    font-size: 34px;
+    /* font-weight: 600; */
+    font-weight: normal;
+    text-align: center;
+    width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+
+
+}
+    @media screen and (max-width: 992px) {
+    .sc6wdl{
+        width: 80%;
+    }
+    .p-lg-3 {
+        padding: 1rem!important;
+    }
+}
+    @media screen and (max-width: 540px) {
+    .sc6wdl{
+        width: 95%;
+    }
+    
+}

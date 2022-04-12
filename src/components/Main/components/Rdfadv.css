@@ -1,0 +1,83 @@
+.img-centers {
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titlecenter{
+    font-family: "NDAstroneer";
+    
+    color: white;
+    font-size: 65px;
+    font-weight: normal;
+    text-align: center;
+    width: 100%; 
+}
+
+.col-6-c{
+    width: calc(50% - 8px);
+    padding: 20px;
+}
+.text-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.row-text {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.bltext{
+    font-family: "NDAstroneer";
+    font-size: 18px;
+    color: #7da3c7;
+}
+.textsubtitle{
+    color: #ffffff;
+    padding: 0 6px;
+    margin: 0;
+    font-family: "NDAstroneer";
+    display: inline-block;
+    font-size: 24px;
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .col-6-c{
+        
+        padding: 30px;
+    }
+   
+}
+
+@media screen and (max-width: 992px) {
+    .titlecenter{
+        
+        text-align: center;
+        margin-bottom: 0.25rem;
+    }
+    .col-6-c{
+        width: 80%;
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 540px) {
+   .titlecenter{
+       width: 95%;
+   }
+
+   .textsubtitle{
+       font-size: 18px;
+       margin-bottom: 0.25rem;  
+   }
+
+   .col-6-c{
+    width: 80%;
+    padding: 20px;
+}
+}
