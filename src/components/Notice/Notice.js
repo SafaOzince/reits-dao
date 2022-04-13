@@ -19,10 +19,10 @@ export const Flex = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 95%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding:55px;
+  padding:15px;
 `;
 
 const Imagee = styled.img`
@@ -131,11 +131,13 @@ const items = [
           </div>
           <div className="n-title">Medium News</div>
           <div>
+          <div className="scontainer">
             <Flex>
               {NewsList.map((items) => (
                 <NewsCard title={items.title} date={items.date} />
               ))}
             </Flex>
+            </div>
           </div>
         </div>
         <div className="n-bottomtitle">What is the “Overflow” sale method?</div>

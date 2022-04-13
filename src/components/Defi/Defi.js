@@ -1,11 +1,12 @@
 import { Button } from "./components/Button";
 import "./Defi.css"
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function Defi() {
     return(
         <>
-          <div className="defi">
+          <section className="defi aos-init aos-animate" data-aos="zoom-out">
             <div className="defi-container">
                 <div className="d-cont">
                     <div className="d-name">
@@ -55,31 +56,33 @@ function Defi() {
                  
                 </div>
             </div>
-          </div>
-          <div className="defi-body">
-                <div className="d-header">Defi Services</div>
-                <div className="d-cards">   
-                    <div className="d-card">
-                        <div className="d-title">
-                            Robinia
-                        </div>
-                        <div className="d-logo">
-                            <img src="./images/rv2logo.svg" alt="" />
-                        </div>
-                        <div className="d-comm">
-                            <div className="d-par">
-                                The first DeFi 1.0 project to 
-                                combine the advantages of 
-                                DeFi 2.0.
+          </section>
+        <section className="container-def1 aos-init aos-animate" data-aos="fade-up">
+            <div className="scontainer">
+                <div className="defi-body">
+                    <div className="d-header">Defi Services</div>
+                    <div className="d-cards">   
+                        <div className="d-card">
+                            <div className="d-title">
+                                Robinia
+                            </div>
+                            <div className="d-logo">
+                                <img className="defi-card-padding" src="./images/rv2logo.svg" alt="" />
+                            </div>
+                            <div className="d-comm">
+                                <div className="d-par">
+                                    The first DeFi 1.0 project to 
+                                    combine the advantages of 
+                                    DeFi 2.0.
+                                </div>
                             </div>
                         </div>
-                    </div>
                     <div className="d-card">
                         <div className="d-title">
                             Wisteria
                         </div>
                         <div className="d-logo">
-                            <img src="./images/Wisteria-logo-yazısız.png" alt=""/>
+                            <img className="defi-card-padding" src="./images/Wisteria-logo-yazısız.png" alt=""/>
                         </div>
                         <div className="d-comm">
                             <div className="d-par">
@@ -94,7 +97,7 @@ function Defi() {
                             How to Start
                         </div>
                         <div className="d-logo">
-                            <img src="./images/youtube-logo.svg" alt=""/>
+                            <img className="defi-card-padding" src="./images/youtube-logo.svg" alt=""/>
                         </div>
                         <div className="d-comm">
                             <div className="d-par">
@@ -105,7 +108,8 @@ function Defi() {
                     </div>
                 </div> 
             </div>
-           
+        </div>
+    </section>
         </>
     )
 }

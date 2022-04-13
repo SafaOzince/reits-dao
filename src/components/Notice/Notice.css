@@ -24,8 +24,9 @@
 }
 
 .n-headercont {
-    width: 85%;
+    width: 100%;
     height: 100%;
+    max-width: 1320px;
     min-height: 414px;
     margin-left: auto;
     margin-right: auto;
@@ -33,7 +34,7 @@
     background-color: #dbedff;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     padding: 30px;
     margin-top: 3em;
@@ -74,6 +75,7 @@
     letter-spacing: normal;
     text-align: center;
     width: 100%;
+    max-width: 1320px;
     color: #02264a;
     margin: 0.75em;  
 }
@@ -121,6 +123,8 @@
     margin-bottom: 4rem;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
+    max-width: 1320px;
 }
 .n-left {
     width: 700px;
