@@ -8,3 +8,35 @@
 
     margin-bottom: 1rem;
 }
+
+.footer-logo {
+    padding: 2rem;
+  }
+@media screen and (max-width: 992px) {
+    .footer-logo {
+      padding: 1rem;
+    }
+  }
+@media screen and (max-width: 540px) {
+    .footer-logo {
+      width: 240px;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .footer-logo {
+      width: 200px;
+    }
+  }
+
+  @media screen and (max-width: 280px) {
+    .footer-logo {
+      width: 160px;
+    }
+  }
+
+  @media screen and (max-width: 220px) {
+    .footer-logo {
+      width: 120px;
+    }
+  }

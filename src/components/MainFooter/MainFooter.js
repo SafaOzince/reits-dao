@@ -27,8 +27,10 @@ export default function MainFooter() {
     <StyledMainFooter>
         <Container>
             <Flex>
-                <ul style={{padding:"2rem"}}>
-                <img src="./images/flogo.svg" alt="" />
+                <ul>
+                    <div className="footer-logo">
+                        <img src="./images/flogo.svg" alt="" style={{width:"100%"}}/>
+                    </div>
                 </ul>
                 <ul>
                     <h1>Follow us</h1>

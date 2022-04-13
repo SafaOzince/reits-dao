@@ -15,7 +15,6 @@
 
 .estaspan {
     width: 100%;
-    margin-right: 5em;
     font-family: "NDAstroneer";
     font-size: 36px;
     font-weight: normal;
@@ -27,14 +26,15 @@
     color: #02264a;
 }
 .estaloccard {
-    width: 30%;
-    height: 292px;
-    margin-top: 3em;
-    margin-bottom: 3.5em;
+    width: calc(31% - 8px);
+    height: 100%;
+    min-height: 292px;
+    margin-top: 2em;
+    margin-bottom: 2.5em;
     margin-left: auto;
     margin-right: auto;
-    padding: 37px 39px 21px 35.4px;
-    border-radius: 17px;
+    padding: 20px 34px;
+    border-radius: 18px;
     box-shadow: 0 3px 6px 0 #c6d5e3;
     background-color: #fff;
 }
@@ -45,17 +45,12 @@
     align-items: center;
     justify-content: start;
     width: 100%;
-    margin-bottom: 1.75em;
+    /* margin-bottom: 1.75em; */
 }
 
 .estaloccarddis {
     font-family: "NDAstroneer";
     font-size: 36px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.17;
-    letter-spacing: normal;
     text-align: left;
     color: #02264a;
     margin-left: 0.5em;
@@ -64,37 +59,50 @@
 .estaloccardbottom {
     font-family: "NDAstroneer";
     font-size: 28px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.43;
-    letter-spacing: normal;
     text-align: left;
     color: #02264a;
+    margin: 30px 0 0 0;
 }
 
 .estaloccardrow {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
 .estabartop {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
     margin-right: auto;
     margin-left: auto;
+    padding-bottom: 67px;
 }
 
+.estabartopsecond {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.estabartopcomm{
+    font-family: "NDAstroneer";
+    font-size: 24px;
+    text-align: left;
+    color: #6d8dad;
+}
 .estabartopl {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-left: 6em;
+    
 }
 
 .estabartopr {
@@ -102,25 +110,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    margin-right: 6em;
+    
 }
 
 .estabartoprin {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-
+    
 }
 .estamaintitle {
     font-family: "NDAstroneer";
-    font-size: 85px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.18;
-    letter-spacing: normal;
-    text-align: center;
+    font-size: 80px;
+    text-align: left;
     color: #02264a;
   
 }
@@ -128,11 +131,6 @@
 .estamaincomm {
     font-family: "NDAstroneer";
     font-size: 24px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 4.96;
-    letter-spacing: normal;
     text-align: left;
     color: #02264a;
 }
@@ -140,11 +138,6 @@
 .estabartoprstyle1 {
     font-family: "NDAstroneer";
   font-size: 35px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.17;
-  letter-spacing: normal;
   text-align: center;
   color: #02264a;
 }
@@ -152,11 +145,6 @@
 .estabartoprstyle2 {
     font-family: "NDAstroneer";
   font-size: 80px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.18;
-  letter-spacing: normal;
   text-align: center;
   color: #02264a;
   margin-right: 0.35em;
@@ -176,17 +164,140 @@
 }
 
 .estabartopheader {
-    display: block;
-    font-family: "NDAstroneer";
+  font-family: "NDAstroneer";
   font-size: 24px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 4.96;
-  letter-spacing: normal;
   text-align: left;
   color: #6d8dad;
   width: 100%;
-  
-  
+  margin-bottom: 0.5rem;
 }
+
+.estapaddingcont{
+    padding:40px 106px;
+}
+@media screen and (max-width: 1200px) {
+    .estaloccard{
+        width: 100%;
+        min-height: 242px;
+        margin-top: 1.5em;
+        margin-bottom: 2em;
+    }
+    .estamaintitle{
+        font-size: 76px;
+    }
+    .estabartoprstyle2{
+        font-size: 76px;
+        margin-right: 0.30em;
+        margin-left: 0.40em;
+    }
+    .estabartoprstyle1{
+        font-size: 32px;
+        text-align: left;
+    }
+    .estapaddingcont{
+        padding:38px 96px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .estaloccard{
+        width: 100%;
+        margin-top: 1.15em;
+        margin-bottom: 1.5em;
+    }
+    .estabartop{
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 36px;
+    }
+    .estabartoprin{
+        width: 100%;
+    }
+    .estabartopheader{
+        text-align: center;
+    }
+    .estamaintitle{
+        text-align: center;
+        font-size: 68px;
+    }
+    .estabartoprstyle2{
+        font-size: 68px;
+        margin-right: 0.24em;
+        margin-left: 0.33em;
+    }
+    .estabartoprstyle1{
+        font-size: 28px;
+        text-align: left;
+    }
+    .estapaddingcont{
+        padding:36px 84px;
+    }
+}
+@media screen and (max-width: 745px) {
+    .estabartoprin{
+        justify-content: flex-start;
+    }
+    .estamaintitle{
+        text-align: center;
+        font-size: 58px;
+    }
+    .estabartoprstyle2{
+        font-size: 58px;
+        margin-right: 0.22em;
+        margin-left: 0.28em;
+    }
+    .estabartoprstyle1{
+        font-size: 24px;  
+    }
+    .estabartop{
+        padding-bottom: 28px;
+    }
+    .estapaddingcont{
+        padding:32px 64px;
+    }
+}
+@media screen and (max-width: 540px) {
+    .estaloccard{
+        width: 100%;
+        margin-top: 0.75em;
+        margin-bottom: 1.15em;
+    }
+    .estabartop{
+        padding-bottom: 22px;
+    }
+    .estamaintitle{
+        text-align: center;
+        font-size: 44px;
+    }
+    .estabartoprstyle2{
+        font-size: 44px;
+        margin-right: 0.12em;
+        margin-left: 0.18em;
+    }
+    .estabartoprstyle1{
+        font-size: 18px;  
+    }
+    .estapaddingcont{
+        padding:16px 32px;
+    }
+}
+ @media screen and (max-width: 414px) {
+    
+    .estamaintitle{
+        /* text-align: left; */
+        font-size: 44px;
+    }
+    .estabartoprstyle2{
+        /* text-align: left; */
+        font-size: 44px;
+        margin-right: 0.12em;
+        margin-left: 0.18em;
+    }
+    .estabartoprstyle1{
+        /* text-align: left; */
+        font-size: 18px;  
+    }
+    .estapaddingcont{
+        padding:8px 16px;
+    }
+} 

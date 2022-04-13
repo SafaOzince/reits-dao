@@ -2,68 +2,76 @@
     width: 100%;
     margin-left:auto;
     margin-right: auto;
-    padding: 35px;
     background-color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: end;
     align-items: center;
-    border-radius: 16px;
+    
 }
-
+.estcontainermaxwith{
+    max-width: 1320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 .estmidconttitle {
     font-family: "NDAstroneer";
     font-size: 56px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.18;
-    letter-spacing: normal;
     text-align: center;
     color: #02264a;
-    margin-bottom: 1em;
+    margin-bottom: 80px;
 }
 
 .estmidcontinside {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
 
 .estimgg{
-    width: 50%;
+    width: calc(50% - 4px);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 15px;
+    padding: 8px;
 }
 
 .estmidcontright {
-    width: 50%;
+    width: calc(50% - 4px);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 15px;
+    padding: 8px;
     
 }
 .est-rightrow{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    max-width: 569.9px;
+    margin-bottom: 1rem;
+    /* max-width: 569.9px; */
 }
 .estmidcontrightsub {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: flex-start;
-    
+    width: 60%;
+}
+.estmidcontrightsub1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 40%;
 }
 
 .est-text1 {
@@ -133,46 +141,131 @@
     justify-content: space-evenly;
     align-items: center;
 }
+.estbluecontbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #e4effa;
+    width: 180px;
+    height: 130px;
+    margin: 0 6px;
+    /* color:#02264a; */
+}
 
 .estfinish2 {
-    -webkit-text-stroke: 1px #02264a;
+    
 font-family: "NDAstroneer";
 font-size: 32px;
-font-weight: normal;
-font-stretch: normal;
-font-style: normal;
-line-height: 3.72;
-letter-spacing: normal;
 text-align: left;
 color: #02264a;
 
 }
-.estmidcontinside2 {
+.estcontract-sideblue{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    background-color: #f5faff;
+    justify-content: center;
     align-items: center;
     width: 100%;
-    background-color: #f5faff;
-    border-radius: 0 0 12px 12px;
 }
-
+.estmidcontinside2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;   
+}
+.bluebox-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: calc(30% - 8px);
+    padding: 8px;
+}
+.bluebox-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: calc(70% - 8px);
+    padding: 8px;
+}
 .imglog{
     display: flex;
-    align-items:flex-end ;
-    justify-content: flex-end;
+    align-items:center ;
+    justify-content: center;
     width: 20%;
     height: 20%;
 }
 
 .est-boxtit {
     font-family: "NDAstroneer";
-  font-size: 26px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: 1.15;
-  letter-spacing: normal;
+  font-size: 22px;
   text-align: center;
   color: #02264a;
+}
+@media screen and (max-width: 1200px) {
+    .estimgg{
+        width: 100%;
+    }
+    .estmidcontright{
+        width: 100%;
+    }
+    .estmidconttitle {
+        font-family: "NDAstroneer";
+        font-size: 44px;
+        text-align: center;
+        color: #02264a;
+        margin-bottom: 58px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .estmidcontrightsub{
+        width: 100%;
+    }
+    .estmidcontrightsub1{
+        width: 100%;
+    }
+
+    .est-rightrow{
+        margin-bottom: 0.5rem;
+    }
+    
+    .bluebox-1{
+        width: 100%;
+    }
+    .bluebox-2{
+        width: 100%;
+    }
+    .estbluecontbox{
+        width: 100%;
+        justify-content: flex-start;
+        padding: 16px;
+    }
+    .estfinish2 {
+        width: 100%;
+    }
+    .estmidconttitle {
+        font-family: "NDAstroneer";
+        font-size: 36px;
+        text-align: center;
+        color: #02264a;
+        margin-bottom: 36px;
+    }
+    
+}
+@media screen and (max-width: 540px) {
+    .estfinish2{
+        font-size: 26px;
+    }
+
+    .estmidconttitle {
+        font-family: "NDAstroneer";
+        font-size: 28px;
+        text-align: center;
+        color: #02264a;
+        margin-bottom: 26px;
+    }
 }

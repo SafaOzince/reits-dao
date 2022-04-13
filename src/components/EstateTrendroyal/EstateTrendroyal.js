@@ -9,8 +9,7 @@ function EstateTrendroyal() {
             <div className="estate">
                 <Topsection/>
                 <EstateReasonCard/>
-                <div className="estdiv"></div>
-                <div className="estbottomtitle">Reliable and Safe Real Estate Asset Management</div>
+                {/* <div className="estdiv"></div> */}
                 <EstateBottomCard/>
                 
             </div>

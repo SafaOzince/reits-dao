@@ -167,9 +167,7 @@
   
     .navbar-logo {
       position: absolute;
-      top: 0;
-      left: 0;
-      transform: translate(25%, 50%);
+      
     }
   
     .menu-icon {
@@ -207,5 +205,29 @@
       background: #fd6920;
       color: #fff;
       transition: 250ms;
+    }
+  }
+  
+  @media screen and (max-width: 540px) {
+    .navbar-logo {
+      width: 240px;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .navbar-logo {
+      width: 200px;
+    }
+  }
+
+  @media screen and (max-width: 280px) {
+    .navbar-logo {
+      width: 160px;
+    }
+  }
+
+  @media screen and (max-width: 220px) {
+    .navbar-logo {
+      width: 120px;
     }
   }

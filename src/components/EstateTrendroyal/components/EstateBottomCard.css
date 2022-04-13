@@ -1,60 +1,126 @@
+.estbottomcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
 .estbottomrow {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     width: 100%;
 }
 
+.estcardboxcontainer{
+    width: 33%;
+    height: 520px;
+    padding: 1rem;
+} 
+
 .estbottomcard {
-    width: 30%;
-    height: 564px;
-    margin-top: 4em;
-    margin-bottom: 4.5em;
+    width: 100%;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 0 43px;
     border-radius: 17px;
     box-shadow: 0 3px 6px 0 #c6d5e3;
     background-color: #fff;
 }
 
 .estbottomcardtop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    height: 50%;
-    padding-left: 33%;
-    padding-top: 16.5%;
+    height: 250px;
+    padding: 60px 0;
     margin-left: auto;
     margin-right: auto;
     border-radius: 17px 17px 0 0;
     background-color: #fafafa;
 }
-
+.estbottomcardbottom{
+    background-color: #ffffff;
+    padding: 34px;
+    border-radius: 17px;
+}
 .estbottomcardtitle {
     font-family: "NDAstroneer";
-    font-size: 36px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.17;
-    letter-spacing: normal;
+    font-size: 30px;
     text-align: left;
     color: #02264a;
-    padding: 0.5rem;
-    margin-left: 1.75rem;
-    margin-right: 1.45rem;
+    margin-bottom: 0.5rem;
 }
 .estbottomcardcomm {
     font-family: "NDAstroneer";
-    font-size: 24px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.67;
-    letter-spacing: normal;
+    font-size: 20px;
     text-align: left;
     color: #02264a;
-    padding: 0.5rem;
-    margin-left: 1.75rem;
-    margin-right: 1.45rem;
+    margin-bottom: 1rem;
 }
+@media screen and (max-width: 1200px) {
+    .estbottomcardbottom{
+        padding: 20px;
+    }
+    .estbottomtitle{
+        width: 60%;
+        font-size: 44px;
+    }
+    
+}
+@media screen and (max-width: 992px) {
+   
+    .estbottomcardbottom{
+        padding: 32px;
+    }
+    .estcardboxcontainer{
+        width: 60%;
+        height: 100%;
+    }
+    .estbottomtitle{
+        width: 70%;
+        font-size: 40px;
+    }
+    
+}
+@media screen and (max-width: 745px) {
+    .estcardboxcontainer{
+        width: 70%;
+        
+
+    }
+    .estbottomcardbottom{
+        padding: 24px;
+    }
+    .estbottomtitle{
+        width: 80%;
+        
+    }
+}
+@media screen and (max-width: 540px) {
+    .estcardboxcontainer{
+        width: 90%;
+        
+    }
+    .estbottomcardbottom{
+        padding: 18px;
+    }
+    .estbottomtitle{
+        width: 100%;
+        font-size: 36px;
+    }
+}
+ @media screen and (max-width: 414px) {
+    .estcardboxcontainer{
+        width: 100%;
+        
+    }
+    .estbottomtitle{
+        width: 100%;
+        font-size: 26px;
+    }
+   
+} 

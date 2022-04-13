@@ -5,8 +5,7 @@
     justify-content: center;
     background: #fff;
     width: 100%;
-    padding-left: 4em;
-    padding-right: 4em;
+    /* padding: 50px 106px; */
 }
 
 .estdiv {
@@ -18,23 +17,25 @@
 }
 
 .estbottomtitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
     font-family: "NDAstroneer";
-    font-size: 56px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.18;
-    letter-spacing: normal;
+    font-size: 52px;
     text-align: center;
     color: #02264a;
-    margin-top: 1em;
+    margin-bottom: 50px;
 }
 
 .estimg {
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: 100%;
     /* margin-bottom: 8em; */
-    margin-top: 3em;
-    padding-left: auto;
-    padding-right: auto;
+    /* margin-top: 3em; */
+    /* padding-left: auto;
+    padding-right: auto; */
 }

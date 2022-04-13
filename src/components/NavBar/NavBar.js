@@ -31,7 +31,7 @@ function NavBar() {
                 <div className="navbar-container">
                     
                     <Link to="/" className="navbar-logo">
-                      <img src="./images/logo-1.svg" alt=""/>
+                      <img src="./images/logo-1.svg" alt="" style={{width:"100%"}}/>
                       <i class="fab fa-typo3" />
                     </Link>
                     
