@@ -27,8 +27,8 @@ export const Flex = styled.div`
 
 const Imagee = styled.img`
 
-  @media(max-width:1466px) {
-    display:none;
+  @media screen and (max-width:992px) {
+    width:100%;
   }
 `
 
