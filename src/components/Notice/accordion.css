@@ -12,7 +12,7 @@
   -moz-border-radius-bottomleft: 30px;
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
-  width: 60%;
+  width: 100%;
 }
 
 .accordion__item + .accordion__item {

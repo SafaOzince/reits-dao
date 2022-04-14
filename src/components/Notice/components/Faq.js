@@ -31,6 +31,7 @@ const items = [
 export const Flex = styled.div`
   display: flex;
   justify-content: center;
+  width:100%;
   margin-bottom: 100px;
 `;
 

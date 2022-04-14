@@ -175,11 +175,12 @@ const items = [
             <Imagee src="./images/Images/noticehome.png" alt=""  />
           </div>
         </div>
-        <div className="n-faq">F.A.Q.</div>
-
-
-
-        <Faq/>
+        <div className="n-scontainer">
+          <div className="n-lastsection">
+            <div className="n-faq">F.A.Q.</div>
+              <Faq/>
+            </div>
+          </div>
       </div>
     </>
   );
