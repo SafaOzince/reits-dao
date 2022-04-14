@@ -97,15 +97,10 @@
 
 .n-subtit {
     font-family: "NDAstroneer";
-    font-size: 27px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.33;
-    letter-spacing: normal;
+    font-size: 24px;
     text-align: left;
     color: #02264a;
-    margin-bottom: 1rem;
+    margin-bottom: 28px;
 }
 
 .n-topimage {
@@ -251,7 +246,7 @@
         padding: 24px;
     }
     .n-subtit{
-        font-size: 24px;
+        font-size: 20px;
     }
     .n-topimage {
         width: 70%;

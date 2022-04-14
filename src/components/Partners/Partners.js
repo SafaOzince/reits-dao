@@ -3,6 +3,7 @@ import "./Partners.css"
 function Partners() {
     return(
         <>
+        <div className="aos-init aos-animate" data-aos="zoom-out">
             <div className="Partners-container">
                 <div className="p-header">Partners</div>
                 <div className="p-iconscontainer">
@@ -37,6 +38,7 @@ function Partners() {
                     </div>
                 </div> 
             </div>
+        </div>
         </>
     )
 }

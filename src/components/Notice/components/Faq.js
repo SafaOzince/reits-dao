@@ -38,7 +38,7 @@ export const Flex = styled.div`
 export default function Faq() {
   return (
     <Flex>
-      <Accordion>
+      <Accordion className="aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
         {items.map(({ q, a }) => (
           <AccordionItem>
             <AccordionItemHeading>
