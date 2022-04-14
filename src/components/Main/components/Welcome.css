@@ -137,7 +137,7 @@
 .container1{
     flex-wrap: wrap;
     height: fit-content;
-    padding: 80px 24px;
+    padding: 40px 24px;
 }
 .col-6{
     width: 80%;
@@ -162,9 +162,15 @@
 }
 @media screen and (max-width: 540px) {
 .container1{
-    padding: 80px 12px;
+    padding: 24px 12px;
 }
 .title{
     width: 95%;
+}
+.col-6{
+    width: 100%;
+}
+.hero-container{
+   padding-bottom: 28px;
 }
 }

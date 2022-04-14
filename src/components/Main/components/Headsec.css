@@ -110,7 +110,7 @@
     .lightcontainer{
         flex-wrap: wrap;
         height: fit-content;
-        padding: 80px 24px;
+        padding: 40px 24px;
     }
     .lightcontainertrans{
         flex-wrap: wrap;
@@ -134,10 +134,10 @@
 }
 @media screen and (max-width: 540px) {
     .lightcontainer{
-        padding: 80px 12px;
+        padding: 24px 12px;
     }
     .lightcontainertrans{
-        padding: 10px 12px;
+        padding: 16px 12px;
     }
     .titledark {
         width: 100%;
@@ -147,5 +147,8 @@
         margin-top: 18px;
         margin-bottom: 18px;
         font-size: 20px;
+    }
+    .p1r{
+        padding-right:0rem;
     }
 }

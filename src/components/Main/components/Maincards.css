@@ -84,7 +84,7 @@
 }
     @media screen and (max-width: 992px) {
     .sc6wdl{
-        width: 80%;
+        width: 95%;
     }
     .p-lg-3 {
         padding: 1rem!important;
@@ -92,7 +92,9 @@
 }
     @media screen and (max-width: 540px) {
     .sc6wdl{
-        width: 95%;
+        width: 100%;
     }
-    
+    .p-lg-3 {
+        padding: 0.5rem!important;
+    }
 }

@@ -348,7 +348,7 @@ h6 {
 }
     @media screen and (max-width: 992px) {
     .container-8{
-        padding: 80px 24px;
+        padding: 40px 24px;
     }
     .p-hero{
         align-items: center;
@@ -357,9 +357,15 @@ h6 {
     .p-wrap{
         flex-wrap: wrap;
     }
+    .col-8{
+        width: 90%;
+    }
 }
     @media screen and (max-width: 540px) {
     .container-8{
-        padding: 80px 12px;
+        padding: 24px 12px;
+    }
+    .col-8{
+        width: 100%;
     }
 }

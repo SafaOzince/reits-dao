@@ -73,6 +73,7 @@
 @media screen and (max-width: 992px) {
     .col-5{
         width: 95%;
+        padding: 20px;
     }
     .col-4 {
         margin-top: 100px;
@@ -92,6 +93,13 @@
 
 @media screen and (max-width: 540px) {
     .col-5{
-        width: 90%;
+        width: 100%;
+        padding: 0px;
+    }
+    .opptextr{
+        margin-top:28px;
     }   
+    .col-4 {
+        margin-top: 40px;
+    }
 }
