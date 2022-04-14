@@ -10,7 +10,7 @@ function Topsection (){
                     <div className="estabartoprin">
                             <div className="estabartoprstyle1">Estimated revenue:</div>
                             <div className="estabartoprstyle2"> 00%</div>
-                            <div className="estabartoprstyle3">/ year</div>
+                            <div className="estabartoprstyle1">/ year</div>
                     </div>
                 </div>
                 <div className="estabartopsecond">

@@ -88,8 +88,8 @@ return(
                             </div>
                             <div className="estfinish2">Contract Documents</div>
                         </div>
-                        <div className="bluebox2">
-                            <div className="estmidcontinside">
+                        <div className="bluebox-2">
+                            {/* <div className="estmidcontinside"> */}
                                 <div className="estbluecontbox">
                                     {/* <div className="estcardbox"> */}
                                     {/* <img src="./images/Group-9152.svg" alt=""/> */}
@@ -110,7 +110,7 @@ return(
                                     {/* <img src="./images/Group-9152.svg" alt=""/> */}
                                     <div className="est-boxtit">Reits Dao Company Document</div>
                                 </div>
-                            </div>
+                            {/* </div> */}
                         </div>
                     </div>
                 </div>

@@ -69,6 +69,9 @@
         width: 60%;
         font-size: 44px;
     }
+    .estbottomrow {
+        padding: 0 44px;
+    }
     
 }
 @media screen and (max-width: 992px) {
@@ -88,7 +91,7 @@
 }
 @media screen and (max-width: 745px) {
     .estcardboxcontainer{
-        width: 70%;
+        width: 80%;
         
 
     }
@@ -102,8 +105,11 @@
 }
 @media screen and (max-width: 540px) {
     .estcardboxcontainer{
-        width: 90%;
-        
+        width: 100%;
+        padding: 8px;
+    }
+    .estbottomrow{
+        padding: 0 4px;
     }
     .estbottomcardbottom{
         padding: 18px;
