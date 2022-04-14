@@ -267,8 +267,16 @@
     }
 }
 @media screen and (max-width: 540px) {
+    .notice-1stcontainer{
+        padding: 0 12px;
+    }
+    .n-headerinside{
+        width: 100%;
+        padding: 0;
+    }
     .n-headercont {
-        padding: 16px;
+        margin-top: 2em;
+        padding: 12px;
     }
     .n-headertitle{
         font-size: 38px;
@@ -282,6 +290,7 @@
         width: 100%;
         height: 100%;
         justify-content:center;
+        padding: 12px;
     }
     .n-topimage img{
         max-width: 35%;
