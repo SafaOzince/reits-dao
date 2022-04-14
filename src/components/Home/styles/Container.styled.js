@@ -8,6 +8,10 @@ height: 100%;
 padding: 0 20px;
 margin-left: auto;
 margin-right: auto;
+@media(max-width:540px){
+  padding: 0 12px;
+
+}
 `
 export const HeaderContainer = styled.div`
 display: flex;

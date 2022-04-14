@@ -129,7 +129,10 @@
     margin-top: 1em;    
     }
     .p3l{
-        padding-left: 0.1rem;
+        padding-left: 0rem;
+    }
+    .p1r{
+        padding-right:0rem;
     }
 }
 @media screen and (max-width: 540px) {
@@ -148,7 +151,5 @@
         margin-bottom: 18px;
         font-size: 20px;
     }
-    .p1r{
-        padding-right:0rem;
-    }
+    
 }
